@@ -14349,6 +14349,17 @@
 		)
 		(uuid "21c8f202-547b-427f-8839-372ed74b3c09")
 	)
+	(text "Coil_4"
+		(exclude_from_sim no)
+		(at 459.74 495.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "25e9eb6f-2388-43f0-bf0c-bb8e40947b13")
+	)
 	(text "AGND capteur collecteur admission"
 		(exclude_from_sim no)
 		(at 68.58 434.34 0)
@@ -15074,6 +15085,17 @@
 		)
 		(uuid "a2e6b149-ce99-4edc-91b7-f8924241a64a")
 	)
+	(text "Coil_2"
+		(exclude_from_sim no)
+		(at 459.74 490.22 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a3faf4d1-b05b-4ba0-b377-ef93f852f47c")
+	)
 	(text "Lambda HEGO ON/OFF"
 		(exclude_from_sim no)
 		(at 68.58 472.44 0)
@@ -15161,6 +15183,17 @@
 			(justify right)
 		)
 		(uuid "bac670f3-0c60-4534-9586-5fa90a31f4fb")
+	)
+	(text "Coil_3"
+		(exclude_from_sim no)
+		(at 459.74 492.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bca28554-8b79-45bd-abec-df50bc0059f1")
 	)
 	(text "Signal température eau"
 		(exclude_from_sim no)
@@ -15424,6 +15457,28 @@
 		)
 		(uuid "fa8cb634-cce7-49f9-be1e-ed21f7a411c1")
 	)
+	(text "Coil_1"
+		(exclude_from_sim no)
+		(at 459.74 487.68 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fad25843-73fc-4aad-bc2a-a7d2f3b85652")
+	)
+	(text "5V"
+		(exclude_from_sim no)
+		(at 459.74 485.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb16b5e9-3ff8-4093-a040-adb8272e9075")
+	)
 	(text "AGND capteur régime moteur"
 		(exclude_from_sim no)
 		(at 749.3 142.24 0)
@@ -15435,7 +15490,7 @@
 		)
 		(uuid "fb7d980f-0441-46ea-af45-0128f78b054d")
 	)
-	(text "Batterie HT\n144V"
+	(text "Batterie HT\nou alim\n144V"
 		(exclude_from_sim no)
 		(at 287.02 518.16 0)
 		(effects
