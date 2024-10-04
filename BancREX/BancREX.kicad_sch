@@ -657,6 +657,170 @@
 				)
 			)
 		)
+		(symbol "Conn_01x02_Socket_3"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN10"
+				(at -0.635 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "CAN-2"
+				(at -0.635 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "SUB-D9"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Socket_3_1_1"
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Conn_01x04_Socket_1"
 			(pin_names
 				(offset 1.016) hide)
@@ -6911,7 +7075,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 525.78) (xy 304.8 525.78)
+			(xy 160.02 523.24) (xy 182.88 523.24)
 		)
 		(stroke
 			(width 0)
@@ -6942,6 +7106,16 @@
 	)
 	(wire
 		(pts
+			(xy 741.68 175.26) (xy 749.3 175.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d844c32-289a-49a6-b27b-00a838f95450")
+	)
+	(wire
+		(pts
 			(xy 441.96 502.92) (xy 459.74 502.92)
 		)
 		(stroke
@@ -6964,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 497.84) (xy 312.42 497.84)
+			(xy 279.4 497.84) (xy 312.42 497.84)
 		)
 		(stroke
 			(width 0)
@@ -7080,17 +7254,6 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 485.14) (xy 284.48 485.14)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "23cd3cb7-8a56-474e-b4b6-d826d6404e4d")
-	)
-	(wire
-		(pts
 			(xy 83.82 40.64) (xy 728.98 40.64)
 		)
 		(stroke
@@ -7177,7 +7340,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 482.6) (xy 294.64 482.6)
+			(xy 304.8 474.98) (xy 281.94 474.98)
 		)
 		(stroke
 			(width 0)
@@ -7217,6 +7380,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "2c349d5a-0468-4935-b525-928686458f56")
+	)
+	(wire
+		(pts
+			(xy 193.04 525.78) (xy 304.8 525.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "2dd18330-a689-4592-9588-7291871a6680")
 	)
 	(wire
 		(pts
@@ -7270,6 +7444,27 @@
 			(color 0 0 0 1)
 		)
 		(uuid "3443ad30-e9d1-4df8-b0a5-3ff183703b19")
+	)
+	(wire
+		(pts
+			(xy 741.68 81.28) (xy 749.3 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "38cd021d-1256-4951-899f-d47e121630d2")
+	)
+	(wire
+		(pts
+			(xy 167.64 525.78) (xy 167.64 528.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "3a3b6d84-1721-4839-a9e6-a4556e806505")
 	)
 	(wire
 		(pts
@@ -7399,6 +7594,16 @@
 	)
 	(wire
 		(pts
+			(xy 741.68 86.36) (xy 749.3 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45e83bde-8c57-4c64-bba2-9d357a3b1ff4")
+	)
+	(wire
+		(pts
 			(xy 731.52 66.04) (xy 109.22 66.04)
 		)
 		(stroke
@@ -7409,7 +7614,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 462.28) (xy 294.64 462.28)
+			(xy 304.8 472.44) (xy 281.94 472.44)
 		)
 		(stroke
 			(width 0)
@@ -7431,14 +7636,13 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 482.6) (xy 294.64 480.06)
+			(xy 741.68 63.5) (xy 749.3 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
-			(color 0 0 0 1)
 		)
-		(uuid "4da3c432-5cba-4887-87f9-3ca7e71be4b7")
+		(uuid "4e3abf8b-14dd-4726-8ac6-aca0e6651c94")
 	)
 	(wire
 		(pts
@@ -7453,7 +7657,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 528.32) (xy 304.8 528.32)
+			(xy 167.64 525.78) (xy 182.88 525.78)
 		)
 		(stroke
 			(width 0)
@@ -7461,6 +7665,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "5047f9dc-b155-4e1e-811e-5ffb3fd67cbe")
+	)
+	(wire
+		(pts
+			(xy 741.68 83.82) (xy 749.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "504df888-e265-45c8-85d9-3b2609726972")
 	)
 	(wire
 		(pts
@@ -7600,7 +7814,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 513.08) (xy 304.8 513.08)
+			(xy 279.4 513.08) (xy 304.8 513.08)
 		)
 		(stroke
 			(width 0)
@@ -7674,7 +7888,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 495.3) (xy 304.8 495.3)
+			(xy 279.4 495.3) (xy 304.8 495.3)
 		)
 		(stroke
 			(width 0)
@@ -7714,6 +7928,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "77783008-961f-412c-92d2-1c099ff07187")
+	)
+	(wire
+		(pts
+			(xy 741.68 172.72) (xy 749.3 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "789ecadf-564b-4355-b79f-bd8f801a1299")
 	)
 	(wire
 		(pts
@@ -7863,7 +8087,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 515.62) (xy 304.8 515.62)
+			(xy 279.4 515.62) (xy 304.8 515.62)
 		)
 		(stroke
 			(width 0)
@@ -7937,17 +8161,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 485.14) (xy 284.48 480.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "991b5ea5-e56a-4aef-a8d0-201a893d8417")
-	)
-	(wire
-		(pts
 			(xy 170.18 185.42) (xy 170.18 462.28)
 		)
 		(stroke
@@ -7986,6 +8199,16 @@
 			(color 0 0 255 1)
 		)
 		(uuid "9be22d5b-df4d-47be-92f6-a85943e17a1d")
+	)
+	(wire
+		(pts
+			(xy 741.68 180.34) (xy 749.3 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c77ba61-a36f-425f-9aa6-32759113c774")
 	)
 	(wire
 		(pts
@@ -8105,17 +8328,6 @@
 	)
 	(wire
 		(pts
-			(xy 284.48 459.74) (xy 284.48 464.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "af0a9643-1959-4efd-835a-afcf00f7061b")
-	)
-	(wire
-		(pts
 			(xy 358.14 441.96) (xy 459.74 441.96)
 		)
 		(stroke
@@ -8166,6 +8378,17 @@
 			(type default)
 		)
 		(uuid "b3f1a45f-a979-4a26-85fa-7bef7dd138e9")
+	)
+	(wire
+		(pts
+			(xy 304.8 462.28) (xy 281.94 462.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "b745e1d7-3fe5-4153-ae46-b1783ec4c6fc")
 	)
 	(wire
 		(pts
@@ -8232,6 +8455,16 @@
 	)
 	(wire
 		(pts
+			(xy 741.68 182.88) (xy 749.3 182.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c28eb6f8-4673-4066-ad3c-609db8ec0ac3")
+	)
+	(wire
+		(pts
 			(xy 185.42 505.46) (xy 76.2 505.46)
 		)
 		(stroke
@@ -8290,6 +8523,26 @@
 			(type default)
 		)
 		(uuid "d382727c-a78e-4fca-9b92-80b8d0a08b97")
+	)
+	(wire
+		(pts
+			(xy 741.68 185.42) (xy 749.3 185.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d3ae66e0-59d6-40dc-9ea5-912e3d6b1d9b")
+	)
+	(wire
+		(pts
+			(xy 741.68 78.74) (xy 749.3 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d562a6a4-851b-4d31-a995-4abba039919c")
 	)
 	(wire
 		(pts
@@ -8357,17 +8610,6 @@
 	)
 	(wire
 		(pts
-			(xy 294.64 462.28) (xy 294.64 464.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "e386c86f-cafd-45cf-a11e-569a0d7baa21")
-	)
-	(wire
-		(pts
 			(xy 728.98 40.64) (xy 728.98 45.72)
 		)
 		(stroke
@@ -8397,6 +8639,28 @@
 			(type default)
 		)
 		(uuid "e58c9d91-306b-4a3a-9dcc-b97d88393025")
+	)
+	(wire
+		(pts
+			(xy 193.04 523.24) (xy 304.8 523.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 194 194 194 1)
+		)
+		(uuid "e60cc894-aa83-4a6b-836d-7d561b6784dc")
+	)
+	(wire
+		(pts
+			(xy 281.94 464.82) (xy 304.8 464.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "e6fddf39-f958-4e4b-b019-ab3fb908ff0f")
 	)
 	(wire
 		(pts
@@ -8443,7 +8707,7 @@
 	)
 	(wire
 		(pts
-			(xy 264.16 500.38) (xy 304.8 500.38)
+			(xy 279.4 500.38) (xy 304.8 500.38)
 		)
 		(stroke
 			(width 0)
@@ -8491,6 +8755,16 @@
 			(type default)
 		)
 		(uuid "eda678b6-5f85-4121-b3fb-a968fd28bc53")
+	)
+	(wire
+		(pts
+			(xy 741.68 66.04) (xy 749.3 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef224beb-5fae-4064-9b82-c17cca6b187e")
 	)
 	(wire
 		(pts
@@ -8545,7 +8819,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 525.78) (xy 160.02 497.84)
+			(xy 160.02 523.24) (xy 160.02 497.84)
 		)
 		(stroke
 			(width 0)
@@ -8553,6 +8827,16 @@
 			(color 194 194 194 1)
 		)
 		(uuid "f53d2bc8-2392-42e4-b203-f3a08ef9f0d4")
+	)
+	(wire
+		(pts
+			(xy 741.68 177.8) (xy 749.3 177.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5b72ac0-cd8b-453b-a9af-64c3e5a2e8c6")
 	)
 	(wire
 		(pts
@@ -8594,17 +8878,6 @@
 			(type default)
 		)
 		(uuid "fa795125-bcf2-4bd4-8bf0-b90644f0ee51")
-	)
-	(wire
-		(pts
-			(xy 304.8 459.74) (xy 284.48 459.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "fbd2596a-b925-4d50-b9ef-541aee75128c")
 	)
 	(wire
 		(pts
@@ -8650,8 +8923,8 @@
 		(uuid 0b99ed92-feaf-46c3-8b04-3bb9563781e9)
 	)
 	(rectangle
-		(start 292.1 464.82)
-		(end 297.18 480.06)
+		(start 261.62 469.9)
+		(end 276.86 477.52)
 		(stroke
 			(width 0)
 			(type default)
@@ -8686,8 +8959,8 @@
 		(uuid 2a410c85-ca09-4b0f-8d0c-c245a76b20c0)
 	)
 	(rectangle
-		(start 741.68 38.1001)
-		(end 759.46 53.3401)
+		(start 736.6 38.1001)
+		(end 754.38 53.3401)
 		(stroke
 			(width 0)
 			(type default)
@@ -8710,8 +8983,8 @@
 		(uuid 3a91acc9-ef00-4d75-accf-49ba68d4be38)
 	)
 	(rectangle
-		(start 281.94 464.82)
-		(end 287.02 480.06)
+		(start 261.62 459.74)
+		(end 276.86 467.36)
 		(stroke
 			(width 0)
 			(type default)
@@ -8722,8 +8995,8 @@
 		(uuid 468c12a8-b07a-4a37-841f-1175447bafbd)
 	)
 	(rectangle
-		(start 228.6 485.14)
-		(end 254 518.16)
+		(start 243.84 485.14)
+		(end 269.24 518.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -8806,8 +9079,8 @@
 		(uuid c94946a1-7438-411e-9cb2-7909d2a54ba7)
 	)
 	(rectangle
-		(start 741.68 76.2001)
-		(end 751.84 88.9001)
+		(start 749.3 76.2001)
+		(end 759.46 88.9001)
 		(stroke
 			(width 0)
 			(type default)
@@ -8818,8 +9091,8 @@
 		(uuid d78bf516-c3eb-4db1-98c6-06063c1d586c)
 	)
 	(rectangle
-		(start 741.68 60.9601)
-		(end 751.84 68.5801)
+		(start 749.3 60.9601)
+		(end 759.46 68.5801)
 		(stroke
 			(width 0)
 			(type default)
@@ -8854,8 +9127,8 @@
 		(uuid f03e24df-d3db-4f96-bac5-ecaf039938e0)
 	)
 	(rectangle
-		(start 741.68 170.1801)
-		(end 764.54 187.9601)
+		(start 749.3 170.1801)
+		(end 772.16 187.9601)
 		(stroke
 			(width 0)
 			(type default)
@@ -14905,7 +15178,7 @@
 	)
 	(text "Détendeur"
 		(exclude_from_sim no)
-		(at 241.3 487.68 0)
+		(at 256.54 487.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -14977,17 +15250,6 @@
 			(justify right)
 		)
 		(uuid "470073d8-f1f1-4db1-9c69-c3f5397b70cf")
-	)
-	(text "JST XA Series"
-		(exclude_from_sim no)
-		(at 466.09 494.03 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "488d460a-8f6e-47c8-a8fb-59451e1be390")
 	)
 	(text "GND"
 		(exclude_from_sim no)
@@ -15123,7 +15385,7 @@
 	)
 	(text "Signal capteur"
 		(exclude_from_sim no)
-		(at 266.7 497.84 0)
+		(at 281.94 497.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15176,7 +15438,7 @@
 		)
 		(uuid "5dc56a2e-e8bb-4245-bbe9-6a43287050fe")
 	)
-	(text "Batterie HT\nou alim\n144V"
+	(text "Chargeur"
 		(exclude_from_sim no)
 		(at 373.38 546.1 0)
 		(effects
@@ -15252,17 +15514,6 @@
 		)
 		(uuid "6deadc93-e1a8-4ef6-8321-ba71f184eaf0")
 	)
-	(text "JST XA Series"
-		(exclude_from_sim no)
-		(at 466.09 505.46 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "714be08d-72dd-4ad0-a26a-c455c6004268")
-	)
 	(text "VREF capteur collecteur admission"
 		(exclude_from_sim no)
 		(at 723.9 157.48 0)
@@ -15320,7 +15571,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 266.7 495.3 0)
+		(at 281.94 495.3 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15375,7 +15626,7 @@
 	)
 	(text "Bonbonne 2"
 		(exclude_from_sim no)
-		(at 294.64 472.44 90)
+		(at 269.24 473.71 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15471,17 +15722,6 @@
 		)
 		(uuid "9d458090-bbec-482b-b3b9-9339606d779e")
 	)
-	(text "JST XA Series"
-		(exclude_from_sim no)
-		(at 466.09 447.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ff9c49f-0f44-4ae8-9f9f-c8266bd264e2")
-	)
 	(text "Lambda UEGO VSIP"
 		(exclude_from_sim no)
 		(at 68.58 462.28 0)
@@ -15514,17 +15754,6 @@
 			(justify right bottom)
 		)
 		(uuid "a0c8ef56-9ca9-4410-8bc2-716c35c9739d")
-	)
-	(text "JST XA Series"
-		(exclude_from_sim no)
-		(at 466.09 462.28 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "a1acb1f3-e6c1-41dc-9577-cc8f8880d82d")
 	)
 	(text "AGND capteur rail injection"
 		(exclude_from_sim no)
@@ -15627,7 +15856,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 266.7 500.38 0)
+		(at 281.94 500.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15790,7 +16019,7 @@
 	)
 	(text "Bonbonne 1"
 		(exclude_from_sim no)
-		(at 284.48 472.44 90)
+		(at 269.24 463.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15898,7 +16127,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x14, script generated"
+		(property "Description" "Molex"
+			(at 71.12 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "64320-1311"
+			(at 71.12 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capot" "64320-1301"
+			(at 71.12 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "64322-1029"
+			(at 71.12 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 2" "64323-1029"
 			(at 71.12 513.08 0)
 			(effects
 				(font
@@ -16005,7 +16270,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "JST SM Series"
+			(at 436.88 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "JST SMR-05V-B"
+			(at 436.88 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "SYM-001T-P0.6"
 			(at 436.88 490.22 0)
 			(effects
 				(font
@@ -16048,7 +16331,7 @@
 		(dnp no)
 		(uuid "1198a5bf-9c23-4d2d-b115-e230dfc5eb2a")
 		(property "Reference" "CN6"
-			(at 742.95 81.28 0)
+			(at 750.57 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16057,7 +16340,7 @@
 			)
 		)
 		(property "Value" "Bobine"
-			(at 742.95 83.82 0)
+			(at 750.57 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16074,7 +16357,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.com/catalog/specsheets/delphi_12202017_gt_series_section-pdf.pdf?srsltid=AfmBOorhGKF6gbfSZqYAN7EMFtxYdxmaw-Qalwq3V0u_Kjzt8wFz0od-"
 			(at 736.6 81.28 0)
 			(effects
 				(font
@@ -16083,7 +16366,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "APTIV"
+			(at 736.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "12162834"
+			(at 736.6 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "12089290-L"
 			(at 736.6 81.28 0)
 			(effects
 				(font
@@ -16158,7 +16459,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x28, script generated"
+		(property "Description" "Molex"
+			(at 71.12 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "64320-1319"
+			(at 71.12 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capot" "64320-1301"
+			(at 71.12 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "64322-1029"
+			(at 71.12 454.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 2" "64323-1029"
 			(at 71.12 454.66 0)
 			(effects
 				(font
@@ -16307,7 +16644,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "SUB-D9"
 			(at 736.6 198.12 0)
 			(effects
 				(font
@@ -16435,7 +16772,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.mouser.ch/datasheet/2/418/5/ENG_CD_2137216_A2-2040806.pdf"
 			(at 736.6 101.6 0)
 			(effects
 				(font
@@ -16444,7 +16781,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
+		(property "Description" "TE AMP Series"
+			(at 736.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Botier" "2137216-1"
+			(at 736.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1-929939-1"
+			(at 736.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "828905-1"
+			(at 736.6 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verrouillage" "828906-2"
 			(at 736.6 101.6 0)
 			(effects
 				(font
@@ -16517,7 +16890,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "JST XA Series"
+			(at 464.82 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "JST XAP-05V-1"
+			(at 464.82 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "SXA-001T-P0.6"
 			(at 464.82 490.22 0)
 			(effects
 				(font
@@ -16597,7 +16988,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Sumitomo MTW Series"
+			(at 436.88 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "6030-2981"
+			(at 436.88 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1500-0071"
 			(at 436.88 500.38 0)
 			(effects
 				(font
@@ -16732,7 +17141,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "JST XA Series"
+			(at 464.82 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "JST XAP-06V-1"
+			(at 464.82 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "SXA-001T-P0.6"
 			(at 464.82 457.2 0)
 			(effects
 				(font
@@ -16813,7 +17240,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "BOSCH"
+			(at 736.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "1 928 403 736"
+			(at 736.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1 928 498 056"
+			(at 736.6 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "1 928 300 599"
 			(at 736.6 154.94 0)
 			(effects
 				(font
@@ -16965,7 +17419,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "Sumitomo MTW Series"
+			(at 436.88 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "6040-2111"
+			(at 436.88 500.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "8240-4050"
 			(at 436.88 500.38 0)
 			(effects
 				(font
@@ -17077,7 +17549,7 @@
 		(dnp no)
 		(uuid "41ebd585-88a7-4e63-8c4e-a8fb220a18b1")
 		(property "Reference" "CN5"
-			(at 742.95 63.4999 0)
+			(at 750.57 63.4999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17086,7 +17558,7 @@
 			)
 		)
 		(property "Value" "Injecteur"
-			(at 742.95 66.04 0)
+			(at 750.57 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17103,7 +17575,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://prd.sws.co.jp/components/series/pdf/jp/hvhvgs.pdf"
 			(at 736.6 63.5 0)
 			(effects
 				(font
@@ -17112,7 +17584,52 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" " Sumitomo HV/HVG SEALED SERIES"
+			(at 736.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "6189-7036"
+			(at 736.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "8100-3067"
+			(at 736.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 2" "8100-3068"
+			(at 736.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "7165-0622"
+			(at 736.6 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Verrouillage" "6918-1835"
 			(at 736.6 63.5 0)
 			(effects
 				(font
@@ -17181,7 +17698,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "  TE Junior Power Timer"
+			(at 736.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "282189-1"
+			(at 736.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "929939-1"
+			(at 736.6 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "828905-1"
 			(at 736.6 116.84 0)
 			(effects
 				(font
@@ -17200,6 +17744,104 @@
 			(project "BancREX"
 				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
 					(reference "CN8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 187.96 523.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "52de8bfa-5486-4114-aa1e-0e2a98beabea")
+		(property "Reference" "CN9"
+			(at 194.31 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" "Capteur température eau"
+			(at 194.31 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "  TE Fastin-Faston Series"
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "180907 "
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "42100-2"
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 2" "60295-2"
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "e776c9c5-a881-4c71-945f-87f66a9c71e6")
+		)
+		(pin "1"
+			(uuid "402a02cf-9b07-4dcc-a97e-fa80cbbb8a8a")
+		)
+		(instances
+			(project "BancREX"
+				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
+					(reference "CN9")
 					(unit 1)
 				)
 			)
@@ -17250,7 +17892,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "JST SM Series"
+			(at 436.88 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "JST SMP-05V-BC"
+			(at 436.88 490.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "SHF-001T-0.8BS"
 			(at 436.88 490.22 0)
 			(effects
 				(font
@@ -17505,7 +18165,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 259.08 497.84 0)
+		(at 274.32 497.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17514,7 +18174,7 @@
 		(dnp no)
 		(uuid "6502e766-3ff3-4df9-9817-57ebda458bb1")
 		(property "Reference" "CN31"
-			(at 252.73 496.57 0)
+			(at 267.97 496.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17523,7 +18183,7 @@
 			)
 		)
 		(property "Value" "Capteur pression gaz"
-			(at 252.73 499.11 0)
+			(at 267.97 499.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17532,7 +18192,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 497.84 0)
+			(at 274.32 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17541,7 +18201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 497.84 0)
+			(at 274.32 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17549,8 +18209,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 259.08 497.84 0)
+		(property "Description" "TE MQS Series"
+			(at 274.32 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "2-967642-1"
+			(at 274.32 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "5-965906-5"
+			(at 274.32 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "967067-1"
+			(at 274.32 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17571,6 +18258,77 @@
 			(project "BancREX"
 				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
 					(reference "CN31")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_Pin_2")
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 187.96 523.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69733396-13d8-4f91-becf-a9d19dcac601")
+		(property "Reference" "J9"
+			(at 188.595 518.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 188.595 520.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 187.96 523.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "74069b14-fbe5-49e4-978e-761806e3b179")
+		)
+		(pin "2"
+			(uuid "01c2c9e6-e8f6-44c6-8a01-9405b889125c")
+		)
+		(instances
+			(project "BancREX"
+				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
+					(reference "J9")
 					(unit 1)
 				)
 			)
@@ -17811,88 +18569,9 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Pin")
-		(at 736.6 45.72 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7d51343d-5acb-4479-bbb4-d055ee4a663e")
-		(property "Reference" "J9"
-			(at 737.235 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "Conn_01x05_Pin"
-			(at 737.235 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 736.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 736.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
-			(at 736.6 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "5"
-			(uuid "2d4f3750-d1e4-485b-9b0e-b1aa638db602")
-		)
-		(pin "4"
-			(uuid "15348804-81b6-4e19-a26b-cbe8ae8c2338")
-		)
-		(pin "1"
-			(uuid "8c315018-88b2-4c38-9731-19b126b6d42a")
-		)
-		(pin "2"
-			(uuid "1c218b70-de55-45b4-88af-7a5cecfe1600")
-		)
-		(pin "3"
-			(uuid "02c8d54d-2ee9-46f2-9287-efa7e64684ca")
-		)
-		(instances
-			(project "BancREX"
-				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
-					(reference "J9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_name "Conn_01x02_Pin_2")
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 259.08 513.08 0)
+		(at 274.32 513.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -17902,7 +18581,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f783d50-bb01-42ed-bf58-1511a92cc833")
 		(property "Reference" "J18"
-			(at 258.445 508 0)
+			(at 273.685 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17911,7 +18590,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 258.445 510.54 0)
+			(at 273.685 510.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17920,7 +18599,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 513.08 0)
+			(at 274.32 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17929,7 +18608,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 513.08 0)
+			(at 274.32 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17938,7 +18617,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 259.08 513.08 0)
+			(at 274.32 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18006,7 +18685,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "BOSCH"
+			(at 736.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "1 928 403 736"
+			(at 736.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1 928 498 056"
+			(at 736.6 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "1 928 300 599"
 			(at 736.6 134.62 0)
 			(effects
 				(font
@@ -18083,7 +18789,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "SUB-D9"
 			(at 736.6 213.36 0)
 			(effects
 				(font
@@ -18249,7 +18955,7 @@
 		(dnp no)
 		(uuid "9f02b55c-7c17-4fba-8934-f78de967370f")
 		(property "Reference" "CN15"
-			(at 742.95 177.8 0)
+			(at 751.84 177.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18258,7 +18964,7 @@
 			)
 		)
 		(property "Value" "Sonde lambda UEGO"
-			(at 742.95 180.34 0)
+			(at 750.57 180.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18275,7 +18981,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=936142&DocType=Customer+Drawing&DocLang=English&PartCntxt=936142-1&DocFormat=pdf"
 			(at 736.6 177.8 0)
 			(effects
 				(font
@@ -18284,7 +18990,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x06, script generated"
+		(property "Description" "TE Junior Power Timer"
+			(at 736.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "936142-1 "
+			(at 736.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "929939-1"
+			(at 736.6 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "828905-1"
 			(at 736.6 177.8 0)
 			(effects
 				(font
@@ -18508,7 +19241,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "JST XA Series"
+			(at 464.82 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "JST XAP-02V-1"
+			(at 464.82 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "SXA-001T-P0.6"
 			(at 464.82 502.92 0)
 			(effects
 				(font
@@ -18681,7 +19432,7 @@
 		(dnp no)
 		(uuid "c80b15d2-d96e-4581-86ce-944862a38c77")
 		(property "Reference" "CN4"
-			(at 742.95 44.45 0)
+			(at 737.87 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18690,7 +19441,7 @@
 			)
 		)
 		(property "Value" "Relais principal"
-			(at 742.95 46.99 0)
+			(at 737.87 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18707,7 +19458,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=V23333-Z1001-A008&DocType=Customer+Drawing&DocLang=English&PartCntxt=1-1904045-2&DocFormat=pdf"
 			(at 736.6 45.72 0)
 			(effects
 				(font
@@ -18716,7 +19467,34 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x05, script generated"
+		(property "Description" "TE Mini Relay"
+			(at 736.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "1-1904045-2"
+			(at 736.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "160927-4 (17-13AWG)"
+			(at 736.6 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 2" "5-160526-9 (20-15 AWG)"
 			(at 736.6 45.72 0)
 			(effects
 				(font
@@ -18816,6 +19594,104 @@
 		)
 	)
 	(symbol
+		(lib_name "Conn_01x02_Socket_3")
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 276.86 474.98 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cdadf8da-8ebf-4484-a1a6-b0b829ae9af0")
+		(property "Reference" "CN13"
+			(at 277.495 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CAN-2"
+			(at 277.495 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TE Superseal Series"
+			(at 276.86 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "282080-1"
+			(at 276.86 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "282403-1"
+			(at 276.86 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "281934-4"
+			(at 276.86 474.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5abbe63c-dc24-4cc3-8f15-a964a84166b6")
+		)
+		(pin "1"
+			(uuid "b3c51787-da5b-485e-8140-35e41d0b5160")
+		)
+		(instances
+			(project "BancREX"
+				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
+					(reference "CN13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Fuse")
 		(at 492.76 518.16 0)
 		(unit 1)
@@ -18887,7 +19763,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 259.08 513.08 0)
+		(at 274.32 513.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18896,7 +19772,7 @@
 		(dnp no)
 		(uuid "d52cf820-d22b-4720-80d7-27ab43234a96")
 		(property "Reference" "CN33"
-			(at 252.73 513.08 0)
+			(at 267.97 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18905,7 +19781,7 @@
 			)
 		)
 		(property "Value" "Valve1"
-			(at 252.73 515.62 0)
+			(at 267.97 515.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18914,7 +19790,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 513.08 0)
+			(at 274.32 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18923,7 +19799,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 513.08 0)
+			(at 274.32 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18931,8 +19807,35 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 259.08 513.08 0)
+		(property "Description" "TE Superseal Series"
+			(at 274.32 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "282080-1"
+			(at 274.32 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "282403-1"
+			(at 274.32 513.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "281934-4"
+			(at 274.32 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19092,7 +19995,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 259.08 497.84 0)
+		(at 274.32 497.84 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -19102,7 +20005,7 @@
 		(fields_autoplaced yes)
 		(uuid "d90010dc-e9ef-4e56-9313-15005c32fdaf")
 		(property "Reference" "J17"
-			(at 258.445 490.22 0)
+			(at 273.685 490.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19111,7 +20014,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 258.445 492.76 0)
+			(at 273.685 492.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19120,7 +20023,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 259.08 497.84 0)
+			(at 274.32 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19129,7 +20032,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 259.08 497.84 0)
+			(at 274.32 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19138,7 +20041,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 259.08 497.84 0)
+			(at 274.32 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19159,6 +20062,104 @@
 			(project "BancREX"
 				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
 					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_Socket_3")
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 276.86 464.82 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "db788e82-3c94-480e-a443-66432314ebe0")
+		(property "Reference" "CN10"
+			(at 277.495 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "CAN-2"
+			(at 277.495 459.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 276.86 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 276.86 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "TE Superseal Series"
+			(at 276.86 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "282080-1"
+			(at 276.86 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "282403-1"
+			(at 276.86 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "281934-4"
+			(at 276.86 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20b67acd-451f-4435-a1bb-407fb6157c98")
+		)
+		(pin "1"
+			(uuid "aca9b99d-7a89-4557-b62c-55135e91a702")
+		)
+		(instances
+			(project "BancREX"
+				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
+					(reference "CN10")
 					(unit 1)
 				)
 			)
@@ -19209,7 +20210,25 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "JST XA Series"
+			(at 464.82 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "JST XAP-04V-1"
+			(at 464.82 441.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "SXA-001T-P0.6"
 			(at 464.82 441.96 0)
 			(effects
 				(font
@@ -19626,7 +20645,43 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
+		(property "Description" "Molex"
+			(at 71.12 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "64319-1218"
+			(at 71.12 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Capot" "64319-1201"
+			(at 71.12 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "64322-1029"
+			(at 71.12 408.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 2" "64323-1029"
 			(at 71.12 408.94 0)
 			(effects
 				(font
@@ -19746,7 +20801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "FAN REX"
+		(property "Value" "FAN ECU Chinois"
 			(at 287.02 429.2599 0)
 			(effects
 				(font
@@ -19896,6 +20951,7 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+				(hide yes)
 			)
 		)
 		(pin "CN19.3" passive
@@ -20079,7 +21135,7 @@
 			(uuid "97291d11-5817-4446-8930-7b03c3b975e9")
 		)
 		(pin "Gaz output 1 (+)" passive
-			(at 304.8 459.74 180)
+			(at 304.8 462.28 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20089,7 +21145,7 @@
 			(uuid "3652a57b-9f19-4f29-a63a-a7fbe34caf3d")
 		)
 		(pin "Gaz output 2 (+)" passive
-			(at 304.8 462.28 180)
+			(at 304.8 472.44 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20099,7 +21155,7 @@
 			(uuid "bc45b10c-533a-4b5a-820b-36778a052250")
 		)
 		(pin "Gaz output 1 (-)" passive
-			(at 304.8 485.14 180)
+			(at 304.8 464.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20109,7 +21165,7 @@
 			(uuid "7df20d7a-9559-4f9f-9e5d-e94931dc0eb4")
 		)
 		(pin "Gaz output 2 (-)" passive
-			(at 304.8 482.6 180)
+			(at 304.8 474.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20199,7 +21255,7 @@
 			(uuid "c0af0671-a3dd-4ea6-bb2d-4505364509fe")
 		)
 		(pin "Contact Input" passive
-			(at 304.8 528.32 180)
+			(at 304.8 525.78 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20209,7 +21265,7 @@
 			(uuid "42c595ea-6700-40a4-89c7-2f7cff12407e")
 		)
 		(pin "Contact Output" passive
-			(at 304.8 525.78 180)
+			(at 304.8 523.24 180)
 			(effects
 				(font
 					(size 1.27 1.27)

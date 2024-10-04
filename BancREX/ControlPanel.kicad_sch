@@ -4546,7 +4546,7 @@
 		)
 		(uuid "2634f373-ce86-42fb-972e-4a9ea02bada6")
 	)
-	(hierarchical_label "FAN control (+) REX"
+	(hierarchical_label "FAN control (+) ECU"
 		(shape passive)
 		(at 200.66 121.92 0)
 		(fields_autoplaced yes)
@@ -4654,7 +4654,7 @@
 		)
 		(uuid "53b4a757-3065-472c-a0e8-9466674e2a82")
 	)
-	(hierarchical_label "FAN control (-) REX"
+	(hierarchical_label "FAN control (-) ECU"
 		(shape passive)
 		(at 200.66 124.46 0)
 		(fields_autoplaced yes)

@@ -1,0 +1,404 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "3ad55166-668e-40e7-857e-4e1d217f6b8d")
+	(paper "A0")
+	(title_block
+		(title "Véhicule REX")
+		(rev "1.0")
+		(company "Softcar SA")
+	)
+	(lib_symbols)
+	(no_connect
+		(at 863.6 337.82)
+		(uuid "105ea280-c083-41a3-a6e2-4483860d8d81")
+	)
+	(no_connect
+		(at 863.6 375.92)
+		(uuid "8470b016-75b5-40ee-8117-eceb603d8452")
+	)
+	(wire
+		(pts
+			(xy 828.04 396.24) (xy 863.6 396.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bace0a1-7de1-4693-99de-268eaac2e2a5")
+	)
+	(wire
+		(pts
+			(xy 828.04 383.54) (xy 863.6 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1fb34138-40fd-4ce4-a643-8e7277d88edb")
+	)
+	(wire
+		(pts
+			(xy 828.04 332.74) (xy 863.6 332.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1ff64666-bfcd-42d2-92fd-426816598d9a")
+	)
+	(wire
+		(pts
+			(xy 828.04 327.66) (xy 863.6 327.66)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "211031e1-d79b-4751-86ed-470c3746254b")
+	)
+	(wire
+		(pts
+			(xy 828.04 353.06) (xy 863.6 353.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26c22b93-44e1-4cc0-b914-204b7eae5026")
+	)
+	(wire
+		(pts
+			(xy 828.04 335.28) (xy 863.6 335.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "367e9473-b847-4b22-96b6-2a14f71176fc")
+	)
+	(wire
+		(pts
+			(xy 828.04 370.84) (xy 863.6 370.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4032c2b6-9789-408d-84ab-36f2ece8f40d")
+	)
+	(wire
+		(pts
+			(xy 828.04 360.68) (xy 863.6 360.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55de5901-4ad7-41b1-86b1-cf92f43281bb")
+	)
+	(wire
+		(pts
+			(xy 828.04 350.52) (xy 863.6 350.52)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e57b94f-772b-4ff9-a8dc-d2e47210e0e3")
+	)
+	(wire
+		(pts
+			(xy 828.04 398.78) (xy 863.6 398.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6128f539-844e-44e1-a4ee-f925f8dca486")
+	)
+	(wire
+		(pts
+			(xy 828.04 347.98) (xy 863.6 347.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "629edfcf-2094-4cc0-961e-121946234e40")
+	)
+	(wire
+		(pts
+			(xy 828.04 345.44) (xy 863.6 345.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e3db30f-fe79-4dd2-b28a-a74665376c85")
+	)
+	(wire
+		(pts
+			(xy 828.04 330.2) (xy 863.6 330.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bc0c6f-7351-47e1-8fb4-97ec8c6ca01c")
+	)
+	(wire
+		(pts
+			(xy 828.04 373.38) (xy 863.6 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2b4cd25-abf4-4d0e-be4b-87544dde3236")
+	)
+	(wire
+		(pts
+			(xy 828.04 401.32) (xy 863.6 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a50dce-a03e-4291-86a7-28c3305da848")
+	)
+	(wire
+		(pts
+			(xy 828.04 386.08) (xy 863.6 386.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df50c3f9-9cdc-497f-8e9e-93865aa7ed57")
+	)
+	(wire
+		(pts
+			(xy 828.04 363.22) (xy 863.6 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9cc6d0c-0662-45c5-9bc3-104adc3fd37d")
+	)
+	(wire
+		(pts
+			(xy 828.04 393.7) (xy 863.6 393.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ebe67314-a8c2-4839-b461-f4b27339ef75")
+	)
+	(label "Signal-Température-Eau"
+		(at 861.06 383.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "24987c56-15ef-4dcf-bb2e-fc2ab5fd0152")
+	)
+	(label "Cmd-Injecteur"
+		(at 861.06 363.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c05c6d9-1e19-484a-b8c6-ace792d1fac4")
+	)
+	(label "12-Constant"
+		(at 861.06 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3d72392d-78a2-404e-813e-566da70b531d")
+	)
+	(label "12-Constant"
+		(at 861.06 332.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4de941b2-4127-48a4-8b94-e795e7893480")
+	)
+	(label "Signal-Température-Rail-Injection"
+		(at 861.06 396.24 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e4b9d9b-4b80-429e-8bfc-17ac67079e90")
+	)
+	(label "Signal-Pression-Rail-Injection"
+		(at 861.06 401.32 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "501045a7-56df-488a-b16c-04264de42602")
+	)
+	(label "AGND-Température-Eau"
+		(at 861.06 386.08 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "53160d9d-4835-4a93-abf3-f6b01916c2ee")
+	)
+	(label "12V-Commuté"
+		(at 861.06 353.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "67f7e280-6619-4c38-926c-c20b63dd5d3f")
+	)
+	(label "VREF-Rail-Injection"
+		(at 861.06 398.78 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6846c87a-f87d-4a7d-8e76-9d0d854b38bd")
+	)
+	(label "12V-Commuté"
+		(at 861.06 335.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "73ecaae2-a504-4ae8-afc9-b962066490cb")
+	)
+	(label "AGND-Rail-Injection"
+		(at 861.06 393.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "90c1d124-1595-481f-ade7-08f76a61a245")
+	)
+	(label "Cmd-Relais-Principal"
+		(at 861.06 330.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9233ef3a-e05d-4e64-be2d-f75c7055bf24")
+	)
+	(label "Cmd-Bobine"
+		(at 861.06 350.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d6f1c7b-6888-4add-8b7d-686dfd51c856")
+	)
+	(label "AGND-Régime-Moteur"
+		(at 861.06 373.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aea8be5f-ba93-41c1-9c96-710e6d3d3ea0")
+	)
+	(label "GND"
+		(at 861.06 347.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ec71903e-5861-4607-9249-4a70be5bb1ee")
+	)
+	(label "GND"
+		(at 861.06 345.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f231f6a0-959f-4a92-93e1-f8d755a053c8")
+	)
+	(label "12V-Commuté"
+		(at 861.06 360.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb08ac2a-d47f-4a82-a23d-19de916fe1d1")
+	)
+	(label "Signal-Régime-Moteur"
+		(at 861.06 370.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fed857bc-d336-40be-9d06-8dcb04b11e2b")
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

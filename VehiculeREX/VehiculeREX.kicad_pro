@@ -224,7 +224,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "error",
+      "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
       "similar_labels": "warning",
       "simulation_model_issue": "ignore",
@@ -239,7 +239,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "BancREX.kicad_pro",
+    "filename": "VehiculeREX.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -334,65 +334,11 @@
           "label": "DNP",
           "name": "${DNP}",
           "show": true
-        },
-        {
-          "group_by": false,
-          "label": "#",
-          "name": "${ITEM_NUMBER}",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Botier",
-          "name": "Botier",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Capot",
-          "name": "Capot",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Contact 1",
-          "name": "Contact 1",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Contact 2",
-          "name": "Contact 2",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Joint",
-          "name": "Joint",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Verrouillage",
-          "name": "Verrouillage",
-          "show": true
-        },
-        {
-          "group_by": false,
-          "label": "Boitier",
-          "name": "Boitier",
-          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "",
+      "name": "Grouped By Value",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -437,12 +383,8 @@
   },
   "sheets": [
     [
-      "3826e1e7-c356-416c-9b64-dce64684d9bf",
+      "3ad55166-668e-40e7-857e-4e1d217f6b8d",
       "Root"
-    ],
-    [
-      "936b8abd-f87f-4e98-8ce3-d9e7ff0912b7",
-      "Control Panel"
     ]
   ],
   "text_variables": {}
