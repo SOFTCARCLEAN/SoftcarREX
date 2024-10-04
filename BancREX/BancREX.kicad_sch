@@ -7138,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 497.84) (xy 312.42 497.84)
+			(xy 279.4 497.84) (xy 307.34 497.84)
 		)
 		(stroke
 			(width 0)
@@ -7340,7 +7340,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 474.98) (xy 281.94 474.98)
+			(xy 304.8 477.52) (xy 281.94 477.52)
 		)
 		(stroke
 			(width 0)
@@ -7380,6 +7380,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "2c349d5a-0468-4935-b525-928686458f56")
+	)
+	(wire
+		(pts
+			(xy 373.38 482.6) (xy 373.38 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d56dfcb-ce67-4bae-b4a2-291afd01fcb8")
 	)
 	(wire
 		(pts
@@ -7447,6 +7457,26 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 482.6) (xy 368.3 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35d4d67f-fd5a-4d1f-b075-5fe7ceb35440")
+	)
+	(wire
+		(pts
+			(xy 388.62 469.9) (xy 393.7 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37fd7d35-9d77-4361-8383-180f61f828e8")
+	)
+	(wire
+		(pts
 			(xy 741.68 81.28) (xy 749.3 81.28)
 		)
 		(stroke
@@ -7486,6 +7516,16 @@
 			(type default)
 		)
 		(uuid "3bd68717-7d84-4e5b-888e-4aea710c7496")
+	)
+	(wire
+		(pts
+			(xy 741.68 104.14) (xy 749.3 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3dc902d9-34e0-44df-ab94-c7a8f89295da")
 	)
 	(wire
 		(pts
@@ -7614,7 +7654,7 @@
 	)
 	(wire
 		(pts
-			(xy 304.8 472.44) (xy 281.94 472.44)
+			(xy 304.8 474.98) (xy 281.94 474.98)
 		)
 		(stroke
 			(width 0)
@@ -7699,6 +7739,16 @@
 	)
 	(wire
 		(pts
+			(xy 741.68 101.6) (xy 749.3 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "52bb2e46-edbe-4c09-acb6-552a240cc2b4")
+	)
+	(wire
+		(pts
 			(xy 462.28 520.7) (xy 464.82 520.7)
 		)
 		(stroke
@@ -7772,6 +7822,16 @@
 	)
 	(wire
 		(pts
+			(xy 368.3 469.9) (xy 378.46 469.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61446c44-6972-4019-9f7b-901393932990")
+	)
+	(wire
+		(pts
 			(xy 160.02 490.22) (xy 76.2 490.22)
 		)
 		(stroke
@@ -7832,6 +7892,16 @@
 			(type default)
 		)
 		(uuid "694dc568-0d5a-42d5-9409-616ba7bffdf6")
+	)
+	(wire
+		(pts
+			(xy 388.62 472.44) (xy 393.7 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a7594b0-74e6-4ca5-95e0-7dbeee53bdd3")
 	)
 	(wire
 		(pts
@@ -8361,6 +8431,16 @@
 	)
 	(wire
 		(pts
+			(xy 373.38 472.44) (xy 378.46 472.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2b2ae4f-b8ec-468e-96fa-bdbe9aaa8c06")
+	)
+	(wire
+		(pts
 			(xy 358.14 452.12) (xy 459.74 452.12)
 		)
 		(stroke
@@ -8452,6 +8532,16 @@
 			(color 255 0 0 1)
 		)
 		(uuid "bf1f652d-5609-417d-a01a-78d1c7dd3371")
+	)
+	(wire
+		(pts
+			(xy 741.68 99.06) (xy 749.3 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c2536830-dd9b-44df-9edf-e9f169647289")
 	)
 	(wire
 		(pts
@@ -8911,8 +9001,8 @@
 		(uuid "ff822da3-09b4-4091-9c92-6db8ce462a54")
 	)
 	(rectangle
-		(start 741.68 96.5201)
-		(end 767.08 106.6801)
+		(start 749.3 96.5201)
+		(end 774.7 106.6801)
 		(stroke
 			(width 0)
 			(type default)
@@ -8923,8 +9013,8 @@
 		(uuid 0b99ed92-feaf-46c3-8b04-3bb9563781e9)
 	)
 	(rectangle
-		(start 261.62 469.9)
-		(end 276.86 477.52)
+		(start 261.62 472.44)
+		(end 276.86 480.06)
 		(stroke
 			(width 0)
 			(type default)
@@ -8945,6 +9035,18 @@
 			(type none)
 		)
 		(uuid 0ec1fd01-ba43-4fb5-a3e5-9cd3bc0d144c)
+	)
+	(rectangle
+		(start 393.7 464.82)
+		(end 408.94 477.52)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 218b6288-7095-475b-a7fb-7ff013aadd19)
 	)
 	(rectangle
 		(start 741.68 114.3001)
@@ -15558,6 +15660,16 @@
 		)
 		(uuid "810c4966-34d7-404f-a166-fc7334b87ee8")
 	)
+	(text "Carburateur"
+		(exclude_from_sim no)
+		(at 401.32 471.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "84110c66-071a-47f9-8210-d3a01400cd3a")
+	)
 	(text "12V commuté"
 		(exclude_from_sim no)
 		(at 723.9 48.26 0)
@@ -15604,7 +15716,7 @@
 	)
 	(text "futur voltmètre"
 		(exclude_from_sim no)
-		(at 314.96 497.84 0)
+		(at 307.34 497.84 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15626,7 +15738,7 @@
 	)
 	(text "Bonbonne 2"
 		(exclude_from_sim no)
-		(at 269.24 473.71 0)
+		(at 269.24 476.25 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16746,7 +16858,7 @@
 		(dnp no)
 		(uuid "2e9f2acd-b338-4f97-91ab-121dbd12c119")
 		(property "Reference" "CN7"
-			(at 742.95 100.33 0)
+			(at 750.57 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16755,7 +16867,7 @@
 			)
 		)
 		(property "Value" "Capteur régime moteur"
-			(at 742.95 102.87 0)
+			(at 750.57 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -17752,6 +17864,7 @@
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 187.96 523.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -17759,17 +17872,16 @@
 		(dnp no)
 		(uuid "52de8bfa-5486-4114-aa1e-0e2a98beabea")
 		(property "Reference" "CN9"
-			(at 194.31 523.24 0)
+			(at 193.04 518.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
-		(property "Value" "Capteur température eau"
-			(at 194.31 525.78 0)
+		(property "Value" "Contact"
+			(at 181.61 525.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18267,6 +18379,7 @@
 		(lib_name "Conn_01x02_Pin_2")
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 187.96 523.24 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -18275,7 +18388,7 @@
 		(fields_autoplaced yes)
 		(uuid "69733396-13d8-4f91-becf-a9d19dcac601")
 		(property "Reference" "J9"
-			(at 188.595 518.16 0)
+			(at 187.325 518.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18284,7 +18397,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 188.595 520.7 0)
+			(at 187.325 520.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18329,6 +18442,104 @@
 			(project "BancREX"
 				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_Pin_2")
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 383.54 469.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6d2d9e90-d8e9-4abc-a149-c108d3ba0ef5")
+		(property "Reference" "J19"
+			(at 384.175 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "Conn_01x02_Pin"
+			(at 384.175 467.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Sumitomo MT Sealed Series"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sumitomo"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "6187-2171"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1500-0105"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "7160-8234"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ec935ea7-9e34-4e51-ac83-f7933688a11a")
+		)
+		(pin "2"
+			(uuid "aaccbe0f-39e8-43c5-bda0-dbd765e08810")
+		)
+		(instances
+			(project "BancREX"
+				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -19423,6 +19634,104 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 383.54 469.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bd4b07c9-854a-4e75-88eb-a5e6deba534e")
+		(property "Reference" "CN14"
+			(at 389.89 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Value" ""
+			(at 389.89 472.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sumitomo MT Sealed Series"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "6180-2181"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1500-0110"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "7160-8234"
+			(at 383.54 469.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "f6a7d4b0-06c0-4b1b-b6b9-0065c2471097")
+		)
+		(pin "1"
+			(uuid "d8819b4f-5bc0-45a1-ad01-e9f263850624")
+		)
+		(instances
+			(project "BancREX"
+				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf"
+					(reference "CN14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
 		(at 736.6 45.72 0)
 		(unit 1)
@@ -19596,25 +19905,23 @@
 	(symbol
 		(lib_name "Conn_01x02_Socket_3")
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 276.86 474.98 180)
+		(at 276.86 477.52 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "cdadf8da-8ebf-4484-a1a6-b0b829ae9af0")
 		(property "Reference" "CN13"
-			(at 277.495 467.36 0)
+			(at 279.4 469.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "CAN-2"
-			(at 277.495 469.9 0)
+		(property "Value" "Solenoide bonbonne"
+			(at 277.495 472.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19623,7 +19930,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 276.86 474.98 0)
+			(at 276.86 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19632,7 +19939,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 276.86 474.98 0)
+			(at 276.86 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19641,7 +19948,7 @@
 			)
 		)
 		(property "Description" "TE Superseal Series"
-			(at 276.86 474.98 0)
+			(at 276.86 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19650,7 +19957,7 @@
 			)
 		)
 		(property "Boitier" "282080-1"
-			(at 276.86 474.98 0)
+			(at 276.86 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19659,7 +19966,7 @@
 			)
 		)
 		(property "Contact 1" "282403-1"
-			(at 276.86 474.98 0)
+			(at 276.86 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19668,7 +19975,7 @@
 			)
 		)
 		(property "Joint" "281934-4"
-			(at 276.86 474.98 0)
+			(at 276.86 477.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20076,18 +20383,16 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "db788e82-3c94-480e-a443-66432314ebe0")
 		(property "Reference" "CN10"
-			(at 277.495 457.2 0)
+			(at 279.4 457.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "CAN-2"
+		(property "Value" "Solenoide bonbonne"
 			(at 277.495 459.74 0)
 			(effects
 				(font
@@ -21145,7 +21450,7 @@
 			(uuid "3652a57b-9f19-4f29-a63a-a7fbe34caf3d")
 		)
 		(pin "Gaz output 2 (+)" passive
-			(at 304.8 472.44 180)
+			(at 304.8 474.98 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21165,7 +21470,7 @@
 			(uuid "7df20d7a-9559-4f9f-9e5d-e94931dc0eb4")
 		)
 		(pin "Gaz output 2 (-)" passive
-			(at 304.8 474.98 180)
+			(at 304.8 477.52 180)
 			(effects
 				(font
 					(size 1.27 1.27)
