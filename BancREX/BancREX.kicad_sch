@@ -7180,7 +7180,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 530.86) (xy 304.8 530.86)
+			(xy 162.56 530.86) (xy 304.8 530.86)
 		)
 		(stroke
 			(width 0.762)
@@ -7487,7 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 525.78) (xy 167.64 528.32)
+			(xy 160.02 525.78) (xy 160.02 528.32)
 		)
 		(stroke
 			(width 0)
@@ -7613,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 530.86) (xy 165.1 530.86)
+			(xy 83.82 530.86) (xy 157.48 530.86)
 		)
 		(stroke
 			(width 0.762)
@@ -7697,7 +7697,7 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 525.78) (xy 182.88 525.78)
+			(xy 160.02 525.78) (xy 182.88 525.78)
 		)
 		(stroke
 			(width 0)
@@ -19652,7 +19652,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" ""
+		(property "Value" "~"
 			(at 389.89 472.44 0)
 			(effects
 				(font
@@ -20506,7 +20506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 464.82 441.96 0)
 			(effects
 				(font
@@ -20565,7 +20565,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_3_Tee")
-		(at 167.64 530.86 180)
+		(at 160.02 530.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20574,7 +20574,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9030940-3461-40bb-92f9-d27082791f55")
 		(property "Reference" "NT6"
-			(at 167.64 535.94 0)
+			(at 160.02 535.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20583,7 +20583,7 @@
 			)
 		)
 		(property "Value" "NetTie_3_Tee"
-			(at 167.64 533.4 0)
+			(at 160.02 533.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20592,7 +20592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 167.64 530.86 0)
+			(at 160.02 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20601,7 +20601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 530.86 0)
+			(at 160.02 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +20610,7 @@
 			)
 		)
 		(property "Description" "Net tie, 3 pins, tee"
-			(at 167.64 530.86 0)
+			(at 160.02 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21339,26 +21339,6 @@
 			)
 			(uuid "319289c0-1661-4581-9ec2-52c1be72e8ee")
 		)
-		(pin "Output 144V (-)" output
-			(at 358.14 530.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "4137fa34-1228-4a22-8e91-1579d7abebf9")
-		)
-		(pin "Output 144V (+)" output
-			(at 358.14 525.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "9042b3dc-f7c9-4369-9d89-611b91940dc5")
-		)
 		(pin "12V constant" passive
 			(at 304.8 530.86 180)
 			(effects
@@ -21398,26 +21378,6 @@
 				(justify left)
 			)
 			(uuid "e43238b0-bb11-41ba-b34f-5059fca14cc9")
-		)
-		(pin "FAN control (+) REX" passive
-			(at 304.8 419.1 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "38bd12b2-7496-4b90-ba5c-c7c0fc5b9800")
-		)
-		(pin "FAN control (-) REX" passive
-			(at 304.8 436.88 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "04442715-cfaa-4e79-9e78-b125ea4dce58")
 		)
 		(pin "Driver bougie (-)" passive
 			(at 358.14 500.38 0)
@@ -21478,26 +21438,6 @@
 				(justify left)
 			)
 			(uuid "84145114-310c-4286-bc3b-90b33e16da97")
-		)
-		(pin "Input 144V (-)" input
-			(at 358.14 548.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "c2d6fb72-5516-4dea-86d2-269e637042ad")
-		)
-		(pin "Input 144V (+)" input
-			(at 358.14 543.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-			(uuid "85d3019e-fca5-49ad-b738-ba16b2e78c02")
 		)
 		(pin "Valve1 control (-)" passive
 			(at 304.8 515.62 180)
@@ -21578,6 +21518,66 @@
 				(justify left)
 			)
 			(uuid "de1483d8-b590-4dfe-9a01-7b9bfbc33cfc")
+		)
+		(pin "Output 144V (+)" output
+			(at 358.14 543.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ecc3366a-5c99-4ca8-a5a6-950429d353b5")
+		)
+		(pin "FAN control (+) ECU" passive
+			(at 304.8 419.1 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "7ee4e6b3-90f6-407b-8103-bff8ce7d8ba1")
+		)
+		(pin "FAN control (-) ECU" passive
+			(at 304.8 436.88 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "60c7f6ec-2a8e-4e57-a6bb-1ab857d7839e")
+		)
+		(pin "Output 144V (-)" output
+			(at 358.14 548.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "86111370-8373-4bd4-8464-e5c305fa0b2a")
+		)
+		(pin "Input 144V (-)" input
+			(at 358.14 530.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "cd24f0a8-975a-4acd-a278-2979f44f6412")
+		)
+		(pin "Input 144V (+)" input
+			(at 358.14 525.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "9aedfeef-1393-4acc-ba66-86d915fb59f2")
 		)
 		(instances
 			(project "BancREX"

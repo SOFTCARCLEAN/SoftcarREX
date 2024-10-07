@@ -943,211 +943,6 @@
 				)
 			)
 		)
-		(symbol "Device:NetTie_4"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "NT3"
-				(at 0 5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "NetTie_4"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Net tie, 4 pins"
-				(at -1.524 4.318 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "net tie short"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Net*Tie*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "NetTie_4_0_1"
-				(polyline
-					(pts
-						(xy -1.27 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 0 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -5.08) (xy 1.27 -5.08)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 1.27 0)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "NetTie_4_1_1"
-				(pin passive line
-					(at -2.54 -2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 180)
-					(length 2.54)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -2.54 180)
-					(length 2.54)
-					(name "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Regulator_Linear:L7805"
 			(pin_names
 				(offset 0.254)
@@ -2959,6 +2754,17 @@
 	)
 	(wire
 		(pts
+			(xy 68.58 81.28) (xy 124.46 81.28)
+		)
+		(stroke
+			(width 0.762)
+			(type default)
+			(color 255 153 0 1)
+		)
+		(uuid "1013f972-93de-4174-bd76-b55d1336857a")
+	)
+	(wire
+		(pts
 			(xy 53.34 83.82) (xy 48.26 83.82)
 		)
 		(stroke
@@ -3051,6 +2857,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "23e01f62-9e90-43fc-9f7d-bc4feed33f67")
+	)
+	(polyline
+		(pts
+			(xy 27.94 99.06) (xy 60.96 116.84)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "29b423b7-c834-432d-bd9e-27a0fff6734b")
 	)
 	(wire
 		(pts
@@ -3370,17 +3187,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 81.28) (xy 124.46 81.28)
-		)
-		(stroke
-			(width 0.762)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "72b59c65-9eb1-4e90-99a8-6c5feb1b14d0")
-	)
-	(wire
-		(pts
 			(xy 208.28 27.94) (xy 208.28 30.48)
 		)
 		(stroke
@@ -3432,6 +3238,17 @@
 		)
 		(uuid "7c8143e5-6bc7-4a58-9f9c-ab13737f2a4a")
 	)
+	(polyline
+		(pts
+			(xy 180.34 86.36) (xy 231.14 104.14)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "82f59fe7-e3fb-47db-a893-0ba7852e4d73")
+	)
 	(wire
 		(pts
 			(xy 33.02 53.34) (xy 33.02 55.88)
@@ -3464,6 +3281,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "8b9deae4-a6d7-4d0d-bbc4-a945a93db25a")
+	)
+	(polyline
+		(pts
+			(xy 27.94 116.84) (xy 60.96 99.06)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "8f501e56-5cae-4d96-bdcd-3c2d0527fbc4")
 	)
 	(wire
 		(pts
@@ -3530,6 +3358,17 @@
 			(color 255 0 0 1)
 		)
 		(uuid "9900c179-ec02-45cc-abe7-94ca18dc822c")
+	)
+	(polyline
+		(pts
+			(xy 180.34 104.14) (xy 231.14 86.36)
+		)
+		(stroke
+			(width 1)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "a0822409-b55e-44c5-ba4a-527798593ed9")
 	)
 	(wire
 		(pts
@@ -3847,17 +3686,6 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 78.74) (xy 124.46 78.74)
-		)
-		(stroke
-			(width 0.762)
-			(type default)
-			(color 255 153 0 1)
-		)
-		(uuid "e8a9ed8f-6f71-4e5c-a09b-c4acd8c3bad0")
-	)
-	(wire
-		(pts
 			(xy 40.64 139.7) (xy 53.34 139.7)
 		)
 		(stroke
@@ -3912,7 +3740,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 81.28) (xy 109.22 81.28)
+			(xy 114.3 83.82) (xy 124.46 83.82)
 		)
 		(stroke
 			(width 0.762)
@@ -4187,14 +4015,14 @@
 	)
 	(text "NOT USED\n"
 		(exclude_from_sim no)
-		(at 55.88 116.84 0)
+		(at 63.5 96.52 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify bottom)
+			(justify right bottom)
 		)
 		(uuid "1b5a40fd-0f02-4eca-9117-f037fe58abbd")
 	)
@@ -4323,14 +4151,14 @@
 	)
 	(text "NOT USED\n"
 		(exclude_from_sim no)
-		(at 226.06 104.14 0)
+		(at 233.68 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.254)
 				(bold yes)
 			)
-			(justify bottom)
+			(justify right bottom)
 		)
 		(uuid "8ead5d15-f9fe-4e50-b496-9e1144b48bd0")
 	)
@@ -4524,7 +4352,7 @@
 	)
 	(hierarchical_label "Input 144V (-)"
 		(shape input)
-		(at 124.46 81.28 0)
+		(at 124.46 83.82 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4560,7 +4388,7 @@
 	)
 	(hierarchical_label "Output 144V (-)"
 		(shape output)
-		(at 109.22 81.28 180)
+		(at 114.3 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4644,7 +4472,7 @@
 	)
 	(hierarchical_label "Input 144V (+)"
 		(shape input)
-		(at 124.46 78.74 0)
+		(at 124.46 81.28 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6121,154 +5949,6 @@
 			(project "BancREX"
 				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf/936b8abd-f87f-4e98-8ce3-d9e7ff0912b7"
 					(reference "SW1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_3")
-		(at 116.84 81.28 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "61b7b57e-208c-4b68-87ed-4668e8b3de6c")
-		(property "Reference" "NT2"
-			(at 116.84 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_3"
-			(at 116.84 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 116.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 116.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 3 pins"
-			(at 116.84 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "18742b3b-1093-45d2-a4de-92729d40d66d")
-		)
-		(pin "2"
-			(uuid "e9711c22-5a6b-41e6-8248-0c187e596974")
-		)
-		(pin "3"
-			(uuid "b45889db-b241-4890-bf1c-745b2f318be9")
-		)
-		(instances
-			(project "BancREX"
-				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf/936b8abd-f87f-4e98-8ce3-d9e7ff0912b7"
-					(reference "NT2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:NetTie_4")
-		(at 71.12 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "62f53af8-a595-4933-a2bd-83ebed6a3e3c")
-		(property "Reference" "NT3"
-			(at 71.12 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "NetTie_4"
-			(at 71.12 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Net tie, 4 pins"
-			(at 69.596 74.422 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "74d87166-c613-40ed-8909-8ddb0d6b4863")
-		)
-		(pin "4"
-			(uuid "c574f0b6-04f0-4825-8b2d-034db7a96a49")
-		)
-		(pin "1"
-			(uuid "817f41cf-c15b-44a0-befc-a7dc2b77a120")
-		)
-		(pin "2"
-			(uuid "bba74ff8-9d46-4a01-8022-650d354145dc")
-		)
-		(instances
-			(project "BancREX"
-				(path "/3826e1e7-c356-416c-9b64-dce64684d9bf/936b8abd-f87f-4e98-8ce3-d9e7ff0912b7"
-					(reference "NT3")
 					(unit 1)
 				)
 			)
