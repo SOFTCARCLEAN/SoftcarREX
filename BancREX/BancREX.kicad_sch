@@ -7138,7 +7138,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 497.84) (xy 307.34 497.84)
+			(xy 287.02 505.46) (xy 307.34 505.46)
 		)
 		(stroke
 			(width 0)
@@ -7561,7 +7561,7 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 551.18) (xy 459.74 551.18)
+			(xy 441.96 551.18) (xy 459.74 551.18)
 		)
 		(stroke
 			(width 0.762)
@@ -7874,7 +7874,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 513.08) (xy 304.8 513.08)
+			(xy 287.02 513.08) (xy 304.8 513.08)
 		)
 		(stroke
 			(width 0)
@@ -7958,7 +7958,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 495.3) (xy 304.8 495.3)
+			(xy 287.02 502.92) (xy 304.8 502.92)
 		)
 		(stroke
 			(width 0)
@@ -8157,7 +8157,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 515.62) (xy 304.8 515.62)
+			(xy 287.02 515.62) (xy 304.8 515.62)
 		)
 		(stroke
 			(width 0)
@@ -8261,7 +8261,7 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 541.02) (xy 459.74 541.02)
+			(xy 441.96 541.02) (xy 459.74 541.02)
 		)
 		(stroke
 			(width 0.762)
@@ -8754,7 +8754,7 @@
 	)
 	(wire
 		(pts
-			(xy 447.04 546.1) (xy 459.74 546.1)
+			(xy 441.96 546.1) (xy 459.74 546.1)
 		)
 		(stroke
 			(width 0.762)
@@ -8797,7 +8797,7 @@
 	)
 	(wire
 		(pts
-			(xy 279.4 500.38) (xy 304.8 500.38)
+			(xy 287.02 508) (xy 304.8 508)
 		)
 		(stroke
 			(width 0)
@@ -9097,8 +9097,8 @@
 		(uuid 468c12a8-b07a-4a37-841f-1175447bafbd)
 	)
 	(rectangle
-		(start 243.84 485.14)
-		(end 269.24 518.16)
+		(start 251.46 497.84)
+		(end 276.86 518.16)
 		(stroke
 			(width 0)
 			(type default)
@@ -9145,8 +9145,8 @@
 		(uuid 83b8b9a0-ce02-4757-a538-e6ac949a7405)
 	)
 	(rectangle
-		(start 365.76 551.18)
-		(end 381 541.02)
+		(start 365.76 541.02)
+		(end 381 551.18)
 		(stroke
 			(width 0)
 			(type default)
@@ -9157,8 +9157,8 @@
 		(uuid 94587a3b-d62f-4ae8-bab8-9dd4958a6e39)
 	)
 	(rectangle
-		(start 426.72 538.48)
-		(end 441.96 553.72)
+		(start 421.64 538.48)
+		(end 436.88 553.72)
 		(stroke
 			(width 0)
 			(type default)
@@ -15280,7 +15280,7 @@
 	)
 	(text "Détendeur"
 		(exclude_from_sim no)
-		(at 256.54 487.68 0)
+		(at 264.16 500.38 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15487,7 +15487,7 @@
 	)
 	(text "Signal capteur"
 		(exclude_from_sim no)
-		(at 281.94 497.84 0)
+		(at 289.56 505.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15540,7 +15540,7 @@
 		)
 		(uuid "5dc56a2e-e8bb-4245-bbe9-6a43287050fe")
 	)
-	(text "Chargeur"
+	(text "PDU"
 		(exclude_from_sim no)
 		(at 373.38 546.1 0)
 		(effects
@@ -15660,7 +15660,7 @@
 		)
 		(uuid "810c4966-34d7-404f-a166-fc7334b87ee8")
 	)
-	(text "Carburateur"
+	(text "Bougie"
 		(exclude_from_sim no)
 		(at 401.32 471.17 0)
 		(effects
@@ -15683,7 +15683,7 @@
 	)
 	(text "GND"
 		(exclude_from_sim no)
-		(at 281.94 495.3 0)
+		(at 289.56 502.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15716,7 +15716,7 @@
 	)
 	(text "futur voltmètre"
 		(exclude_from_sim no)
-		(at 307.34 497.84 0)
+		(at 307.34 505.46 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -15968,7 +15968,7 @@
 	)
 	(text "5V"
 		(exclude_from_sim no)
-		(at 281.94 500.38 0)
+		(at 289.56 508 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16001,7 +16001,7 @@
 	)
 	(text "Moteur"
 		(exclude_from_sim no)
-		(at 434.34 546.1 0)
+		(at 429.26 546.1 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16782,7 +16782,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 441.96 541.02 180)
+		(at 436.88 541.02 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -16790,7 +16790,7 @@
 		(dnp no)
 		(uuid "2dba7d17-7524-497a-8436-25c68622f73a")
 		(property "Reference" "CN30"
-			(at 439.42 542.2901 0)
+			(at 434.34 542.2901 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16800,7 +16800,7 @@
 			)
 		)
 		(property "Value" "Generator input phase wires"
-			(at 439.42 539.7501 0)
+			(at 434.34 539.7501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16810,7 +16810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 441.96 541.02 0)
+			(at 436.88 541.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16819,7 +16819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 441.96 541.02 0)
+			(at 436.88 541.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -16828,7 +16828,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 441.96 541.02 0)
+			(at 436.88 541.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18277,7 +18277,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Socket")
-		(at 274.32 497.84 0)
+		(at 281.94 505.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18286,7 +18286,7 @@
 		(dnp no)
 		(uuid "6502e766-3ff3-4df9-9817-57ebda458bb1")
 		(property "Reference" "CN31"
-			(at 267.97 496.57 0)
+			(at 275.59 504.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18295,7 +18295,7 @@
 			)
 		)
 		(property "Value" "Capteur pression gaz"
-			(at 267.97 499.11 0)
+			(at 275.59 506.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18304,7 +18304,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18313,7 +18313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18322,7 +18322,7 @@
 			)
 		)
 		(property "Description" "TE MQS Series"
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18331,7 +18331,7 @@
 			)
 		)
 		(property "Boitier" "2-967642-1"
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18340,7 +18340,7 @@
 			)
 		)
 		(property "Contact 1" "5-965906-5"
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18349,7 +18349,7 @@
 			)
 		)
 		(property "Joint" "967067-1"
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18782,7 +18782,7 @@
 	(symbol
 		(lib_name "Conn_01x02_Pin_2")
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 274.32 513.08 0)
+		(at 281.94 513.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18792,7 +18792,7 @@
 		(fields_autoplaced yes)
 		(uuid "7f783d50-bb01-42ed-bf58-1511a92cc833")
 		(property "Reference" "J18"
-			(at 273.685 508 0)
+			(at 281.305 508 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18801,7 +18801,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Pin"
-			(at 273.685 510.54 0)
+			(at 281.305 510.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18810,7 +18810,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18819,7 +18819,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -18828,7 +18828,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19373,7 +19373,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
+		(property "Datasheet" ""
 			(at 365.76 543.56 0)
 			(effects
 				(font
@@ -19382,7 +19382,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x02, script generated"
+		(property "Description" "HVSL362022A"
 			(at 365.76 543.56 0)
 			(effects
 				(font
@@ -20070,7 +20070,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 274.32 513.08 0)
+		(at 281.94 513.08 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20079,7 +20079,7 @@
 		(dnp no)
 		(uuid "d52cf820-d22b-4720-80d7-27ab43234a96")
 		(property "Reference" "CN33"
-			(at 267.97 513.08 0)
+			(at 275.59 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20088,7 +20088,7 @@
 			)
 		)
 		(property "Value" "Valve1"
-			(at 267.97 515.62 0)
+			(at 275.59 515.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20097,7 +20097,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20106,7 +20106,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20115,7 +20115,7 @@
 			)
 		)
 		(property "Description" "TE Superseal Series"
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20124,7 +20124,7 @@
 			)
 		)
 		(property "Boitier" "282080-1"
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20133,7 +20133,7 @@
 			)
 		)
 		(property "Contact 1" "282403-1"
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20142,7 +20142,7 @@
 			)
 		)
 		(property "Joint" "281934-4"
-			(at 274.32 513.08 0)
+			(at 281.94 513.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20302,7 +20302,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
-		(at 274.32 497.84 0)
+		(at 281.94 505.46 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -20312,7 +20312,7 @@
 		(fields_autoplaced yes)
 		(uuid "d90010dc-e9ef-4e56-9313-15005c32fdaf")
 		(property "Reference" "J17"
-			(at 273.685 490.22 0)
+			(at 281.305 497.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20321,7 +20321,7 @@
 			)
 		)
 		(property "Value" "Conn_01x03_Pin"
-			(at 273.685 492.76 0)
+			(at 281.305 500.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20330,7 +20330,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20339,7 +20339,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20348,7 +20348,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 274.32 497.84 0)
+			(at 281.94 505.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20703,7 +20703,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 441.96 546.1 180)
+		(at 436.88 546.1 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20711,7 +20711,7 @@
 		(dnp no)
 		(uuid "eec37ed6-643f-4351-a69d-ae2381529ca1")
 		(property "Reference" "CN31"
-			(at 439.42 547.3701 0)
+			(at 434.34 547.3701 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20721,7 +20721,7 @@
 			)
 		)
 		(property "Value" "Generator input phase wires"
-			(at 439.42 544.8301 0)
+			(at 434.34 544.8301 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20731,7 +20731,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 441.96 546.1 0)
+			(at 436.88 546.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20740,7 +20740,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 441.96 546.1 0)
+			(at 436.88 546.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20749,7 +20749,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 441.96 546.1 0)
+			(at 436.88 546.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20837,7 +20837,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 441.96 551.18 180)
+		(at 436.88 551.18 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -20845,7 +20845,7 @@
 		(dnp no)
 		(uuid "f1bc9cb0-c031-4182-bccd-17c574ef7b36")
 		(property "Reference" "CN32"
-			(at 439.42 552.4501 0)
+			(at 434.34 552.4501 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20855,7 +20855,7 @@
 			)
 		)
 		(property "Value" "Generator input phase wires"
-			(at 439.42 549.9101 0)
+			(at 434.34 549.9101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20865,7 +20865,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 441.96 551.18 0)
+			(at 436.88 551.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20874,7 +20874,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 441.96 551.18 0)
+			(at 436.88 551.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20883,7 +20883,7 @@
 			)
 		)
 		(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 441.96 551.18 0)
+			(at 436.88 551.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21460,7 +21460,7 @@
 			(uuid "05abf003-be27-4221-8ecf-0e2f19e2da17")
 		)
 		(pin "5V_Reg7805" passive
-			(at 304.8 500.38 180)
+			(at 304.8 508 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21470,7 +21470,7 @@
 			(uuid "7d2a703a-05f1-4738-a6e3-535baf121216")
 		)
 		(pin "GND_Reg7805" passive
-			(at 304.8 495.3 180)
+			(at 304.8 502.92 180)
 			(effects
 				(font
 					(size 1.27 1.27)

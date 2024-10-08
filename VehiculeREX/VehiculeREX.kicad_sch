@@ -662,6 +662,887 @@
 				)
 			)
 		)
+		(symbol "Conn_01x04_Male_6"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "AmphenolHT2P"
+				(at 1.27 6.35 0)
+				(effects
+					(font
+						(size 0.7 0.7)
+					)
+				)
+			)
+			(property "Value" "HVSL362062A010I"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 0.5 0.5)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Male_6_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -5.08) (xy 0.8636 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 2.54) (xy 0.8636 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -4.953)
+					(end 0 -5.207)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 -5.08 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Conn_01x04_Socket_1"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J1"
+				(at 1.27 0.0001 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "Conn_01x04_Socket"
+				(at 1.27 -2.5399 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x04, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x04_Socket_1_1_1"
+				(arc
+					(start 0 -4.572)
+					(mid -0.5058 -5.08)
+					(end 0 -5.588)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 -2.032)
+					(mid -0.5058 -2.54)
+					(end 0 -3.048)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -5.08) (xy -0.508 -5.08)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -0.508 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -0.508 2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 3.048)
+					(mid -0.5058 2.54)
+					(end 0 2.032)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x01_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Pin"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x01_Socket"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x01_Socket"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x01_Socket_1_1"
+				(polyline
+					(pts
+						(xy -1.27 0) (xy -0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0 0.508)
+					(mid -0.5058 0)
+					(end 0 -0.508)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "Connector:Conn_01x02_Pin"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02_Pin"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_Pin_1_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 0.8636 -2.54)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy 0.8636 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 0.8636 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(rectangle
+					(start 0.8636 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Connector:Conn_01x02_Socket"
 			(pin_names
 				(offset 1.016) hide)
@@ -3077,8 +3958,24 @@
 			)
 		)
 	)
+	(junction
+		(at 1258.57 116.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1eded4d1-92b9-4f3c-8e2b-a49412b9c739")
+	)
+	(junction
+		(at 1258.57 114.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6bc41040-f37d-4013-9b02-48040c0c52d6")
+	)
 	(no_connect
-		(at 1247.14 220.98)
+		(at 1257.3 121.92)
+		(uuid "0b771618-da4a-4b41-a4cb-9f0dbbdd4a7a")
+	)
+	(no_connect
+		(at 1247.14 218.44)
 		(uuid "18d19847-74c9-4446-8e98-65f89c1c618c")
 	)
 	(no_connect
@@ -3090,20 +3987,40 @@
 		(uuid "782dfdd5-2c5f-4b9d-8339-942d6e6d2d8f")
 	)
 	(no_connect
-		(at 1252.22 259.08)
+		(at 1252.22 251.46)
 		(uuid "84e34fb9-2d45-43a0-8841-c189a69162d4")
 	)
 	(no_connect
-		(at 1247.14 226.06)
+		(at 1247.14 223.52)
 		(uuid "b3b3037b-ab48-45ae-81ea-a7bb7092854f")
 	)
 	(no_connect
-		(at 1247.14 223.52)
+		(at 1247.14 220.98)
 		(uuid "cb0dda4f-da94-4071-82df-ed9f671f1555")
 	)
 	(no_connect
 		(at 1247.14 27.94)
 		(uuid "e6ece74a-a16b-4a61-b928-a42ddfcf6957")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 280.67) (xy 1306.83 280.67)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "016f211d-e4a8-41c0-88ae-d0097b04d6be")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 273.05) (xy 1306.83 273.05)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "087bf76c-d03a-44e5-89de-dc5aeffb951b")
 	)
 	(wire
 		(pts
@@ -3114,6 +4031,46 @@
 			(type default)
 		)
 		(uuid "0b6dd346-ae63-4f7d-9de5-505ff6812697")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 283.21) (xy 1306.83 283.21)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "0d1d1126-1d48-4b29-9a1a-cdd56466c557")
+	)
+	(wire
+		(pts
+			(xy 1254.76 429.26) (xy 1257.3 429.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11f14458-d072-467f-92f9-ae3f7f91eee0")
+	)
+	(wire
+		(pts
+			(xy 1254.76 276.86) (xy 1257.3 276.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "21673766-8201-4f60-b848-c8bad3803883")
+	)
+	(wire
+		(pts
+			(xy 1257.3 127) (xy 1259.84 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "23f9d303-614f-4a7e-97f9-d5eab6041449")
 	)
 	(wire
 		(pts
@@ -3137,6 +4094,16 @@
 	)
 	(wire
 		(pts
+			(xy 1254.76 431.8) (xy 1257.3 431.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2ef05e3c-464b-4147-9ba3-37bd4c0288bb")
+	)
+	(wire
+		(pts
 			(xy 1257.3 50.8) (xy 1259.84 50.8)
 		)
 		(stroke
@@ -3144,6 +4111,16 @@
 			(type default)
 		)
 		(uuid "3156c631-7363-4a53-8e94-8ec02513b5d4")
+	)
+	(wire
+		(pts
+			(xy 1254.76 406.4) (xy 1257.3 406.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "364825f4-0238-419e-b61d-1863d29da72b")
 	)
 	(polyline
 		(pts
@@ -3157,17 +4134,37 @@
 	)
 	(wire
 		(pts
-			(xy 1244.6 236.22) (xy 1247.14 236.22)
+			(xy 1254.76 477.52) (xy 1257.3 477.52)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "464e79c8-e8d9-4e1f-8385-1a624e65865d")
+		(uuid "370aa5fe-7dfe-4176-a102-1cea05db8d02")
 	)
 	(polyline
 		(pts
-			(xy 1258.57 262.89) (xy 1306.83 262.89)
+			(xy 1258.57 501.65) (xy 1276.35 501.65)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "3acc3139-59da-4995-8a7a-b350fcf53fda")
+	)
+	(wire
+		(pts
+			(xy 1254.76 383.54) (xy 1257.3 383.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4066fe49-7844-4135-a60a-c3b611dc7105")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 255.27) (xy 1306.83 255.27)
 		)
 		(stroke
 			(width 0)
@@ -3175,9 +4172,19 @@
 		)
 		(uuid "4a922360-d21a-4fcf-b90f-2163077e52ec")
 	)
+	(wire
+		(pts
+			(xy 1254.76 401.32) (xy 1257.3 401.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4af6addb-1661-42b3-bcde-d04d870fd798")
+	)
 	(polyline
 		(pts
-			(xy 1258.57 227.33) (xy 1306.83 227.33)
+			(xy 1258.57 224.79) (xy 1306.83 224.79)
 		)
 		(stroke
 			(width 0)
@@ -3185,15 +4192,85 @@
 		)
 		(uuid "4cc3e15b-d2e3-4996-9b98-a330774f9bc3")
 	)
+	(wire
+		(pts
+			(xy 1254.76 487.68) (xy 1257.3 487.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "508526c7-7a82-48f2-afff-6f517efe2009")
+	)
+	(wire
+		(pts
+			(xy 1258.57 114.3) (xy 1259.84 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54f45604-841d-4656-85e0-b03629bd8b19")
+	)
 	(polyline
 		(pts
-			(xy 1258.57 212.09) (xy 1306.83 212.09)
+			(xy 1258.57 209.55) (xy 1306.83 209.55)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "55107b88-8914-482c-8fbd-cbef5deba73d")
+	)
+	(wire
+		(pts
+			(xy 1257.3 119.38) (xy 1259.84 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "56e42f4f-8d7e-46e8-9b8c-a9b7ee4d50b5")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 496.57) (xy 1276.35 496.57)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "5770b6e5-c35a-451a-9122-4ec2c8cfae9e")
+	)
+	(wire
+		(pts
+			(xy 1254.76 381) (xy 1257.3 381)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5815c90c-c16c-4bc7-a71e-ce8389b161ce")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 270.51) (xy 1306.83 270.51)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "58d4b417-08e6-4eaa-9350-f11ce95048e1")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 504.19) (xy 1276.35 504.19)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "59a17b67-125d-46a6-80ce-f954b7548ea6")
 	)
 	(wire
 		(pts
@@ -3207,6 +4284,36 @@
 	)
 	(wire
 		(pts
+			(xy 1254.76 474.98) (xy 1257.3 474.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602ac999-8bc1-457d-b171-728567a0e9ef")
+	)
+	(wire
+		(pts
+			(xy 1221.74 238.76) (xy 1247.14 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61e57775-3e13-491e-aaa2-9005bddce01f")
+	)
+	(wire
+		(pts
+			(xy 1221.74 231.14) (xy 1247.14 231.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6588649e-40f8-4c19-b94c-84cc787e5891")
+	)
+	(wire
+		(pts
 			(xy 1257.3 185.42) (xy 1259.84 185.42)
 		)
 		(stroke
@@ -3217,13 +4324,23 @@
 	)
 	(polyline
 		(pts
-			(xy 1258.57 245.11) (xy 1306.83 245.11)
+			(xy 1258.57 240.03) (xy 1306.83 240.03)
 		)
 		(stroke
 			(width 0)
 			(type dash)
 		)
 		(uuid "677a6f08-0f93-40e5-9bec-0219eaad3189")
+	)
+	(wire
+		(pts
+			(xy 1221.74 236.22) (xy 1247.14 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "67aaceab-72f2-434b-b79a-28f8b24a6c6c")
 	)
 	(wire
 		(pts
@@ -3235,15 +4352,55 @@
 		)
 		(uuid "69856e9a-6830-470d-ad3c-0b09fbf8fd6c")
 	)
+	(polyline
+		(pts
+			(xy 1258.57 509.27) (xy 1276.35 509.27)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "6b2fca0d-5457-4971-b617-a9f2f42ee49c")
+	)
 	(wire
 		(pts
-			(xy 1244.6 251.46) (xy 1247.14 251.46)
+			(xy 1254.76 391.16) (xy 1257.3 391.16)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "782c3ca9-e3f9-45e4-a798-07b72a28ed2c")
+		(uuid "6ce9cbe2-0c32-4a25-9945-dac32ab4dcb8")
+	)
+	(wire
+		(pts
+			(xy 1254.76 408.94) (xy 1257.3 408.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73036a77-eb31-4ee6-8c54-8fe48002f88f")
+	)
+	(wire
+		(pts
+			(xy 1254.76 421.64) (xy 1257.3 421.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "757df781-6a36-4d0f-b789-bb7c3c86baaa")
+	)
+	(wire
+		(pts
+			(xy 1257.3 124.46) (xy 1259.84 124.46)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a7d4777-5a17-4009-b05a-ae1b78a092b8")
 	)
 	(wire
 		(pts
@@ -3257,13 +4414,23 @@
 	)
 	(wire
 		(pts
-			(xy 1244.6 254) (xy 1247.14 254)
+			(xy 1221.74 246.38) (xy 1247.14 246.38)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "83e9e5c9-0ed3-49b4-a041-d212705ce532")
+		(uuid "82a1954d-f7fc-487f-86c0-793bbd127b22")
+	)
+	(wire
+		(pts
+			(xy 1254.76 485.14) (xy 1257.3 485.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "86c672a1-de16-43dd-8db1-68c6e49c9f62")
 	)
 	(polyline
 		(pts
@@ -3277,7 +4444,17 @@
 	)
 	(polyline
 		(pts
-			(xy 1258.57 250.19) (xy 1306.83 250.19)
+			(xy 1258.57 316.23) (xy 1286.51 316.23)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "909bc6e8-4891-42dc-89f3-08ccb06826f4")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 242.57) (xy 1306.83 242.57)
 		)
 		(stroke
 			(width 0)
@@ -3287,23 +4464,63 @@
 	)
 	(wire
 		(pts
-			(xy 1244.6 233.68) (xy 1247.14 233.68)
+			(xy 1258.57 114.3) (xy 1258.57 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a99a12d3-4a24-4be6-816c-33fc77a0e0c8")
+		(uuid "940b03c5-aa6d-432a-b556-033d0378921f")
 	)
 	(wire
 		(pts
-			(xy 1244.6 241.3) (xy 1247.14 241.3)
+			(xy 1258.57 116.84) (xy 1259.84 116.84)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b0a2ebb9-972a-46de-a869-32dda717ccc3")
+		(uuid "b54f677e-fe11-4efe-a244-ba99b4c329fd")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 308.61) (xy 1286.51 308.61)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "b60e92b6-77d3-45fe-937c-5fe5ec4f3564")
+	)
+	(wire
+		(pts
+			(xy 1257.3 116.84) (xy 1258.57 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7690da6-70a8-4c37-97b8-d549236fba32")
+	)
+	(wire
+		(pts
+			(xy 1244.6 373.38) (xy 1257.3 373.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ba289c12-6704-4686-a09b-8d5ce92db494")
+	)
+	(wire
+		(pts
+			(xy 1257.3 114.3) (xy 1258.57 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bafe69fc-47cb-4a42-a645-0a0d2c131d1c")
 	)
 	(wire
 		(pts
@@ -3317,7 +4534,7 @@
 	)
 	(polyline
 		(pts
-			(xy 1258.57 232.41) (xy 1306.83 232.41)
+			(xy 1258.57 227.33) (xy 1306.83 227.33)
 		)
 		(stroke
 			(width 0)
@@ -3325,15 +4542,25 @@
 		)
 		(uuid "bf3772b6-cce9-4fe3-99d1-c82d6385b0af")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 1244.6 243.84) (xy 1247.14 243.84)
+			(xy 1258.57 321.31) (xy 1286.51 321.31)
 		)
 		(stroke
 			(width 0)
-			(type default)
+			(type dash)
 		)
-		(uuid "c39ca52f-34c9-4233-8040-afec334f527b")
+		(uuid "c1cf7e50-b97d-4eb4-8f81-ffd692bcdf71")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 313.69) (xy 1286.51 313.69)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "c25ce1d1-5a44-4f4a-a741-85c65926e322")
 	)
 	(wire
 		(pts
@@ -3344,6 +4571,16 @@
 			(type default)
 		)
 		(uuid "c5540958-197f-4a58-99e3-ee0adebc4434")
+	)
+	(wire
+		(pts
+			(xy 1221.74 233.68) (xy 1247.14 233.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c7fb2b07-1072-4739-b0d1-253c2995a435")
 	)
 	(polyline
 		(pts
@@ -3357,13 +4594,23 @@
 	)
 	(wire
 		(pts
-			(xy 1244.6 238.76) (xy 1247.14 238.76)
+			(xy 1254.76 411.48) (xy 1257.3 411.48)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6eaeeeb-afde-4a73-a719-8944b2939c6a")
+		(uuid "d102039e-6bbc-40d3-991e-56161b311cc0")
+	)
+	(wire
+		(pts
+			(xy 1254.76 419.1) (xy 1257.3 419.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2de5ca9-840a-41cb-a15f-0fd4df7239b3")
 	)
 	(polyline
 		(pts
@@ -3377,6 +4624,56 @@
 	)
 	(wire
 		(pts
+			(xy 1254.76 393.7) (xy 1257.3 393.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc0b6b3b-2309-4c8c-86a1-5ac5feabe9c0")
+	)
+	(wire
+		(pts
+			(xy 1244.6 375.92) (xy 1257.3 375.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dc505a9d-1522-4d65-a4d0-d7762a29f389")
+	)
+	(wire
+		(pts
+			(xy 1221.74 228.6) (xy 1247.14 228.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0df079c-5633-47eb-9482-b5b4d8355ac6")
+	)
+	(polyline
+		(pts
+			(xy 1258.57 257.81) (xy 1306.83 257.81)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "e5dc6781-4b40-49e5-adcb-2d3468bbd66e")
+	)
+	(wire
+		(pts
+			(xy 1247.14 360.68) (xy 1247.14 363.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e988ffa6-6cea-455f-973f-f01e3708cefc")
+	)
+	(wire
+		(pts
 			(xy 1257.3 38.1) (xy 1259.84 38.1)
 		)
 		(stroke
@@ -3384,6 +4681,16 @@
 			(type default)
 		)
 		(uuid "ed85b7e4-ccd7-4a43-a3ab-d7ef200034fa")
+	)
+	(wire
+		(pts
+			(xy 1221.74 243.84) (xy 1247.14 243.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f10bf8dc-05cf-4fd0-a101-5b1893ac5b31")
 	)
 	(wire
 		(pts
@@ -3397,6 +4704,26 @@
 	)
 	(polyline
 		(pts
+			(xy 1258.57 300.99) (xy 1306.83 300.99)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "f43451d1-54fb-491d-b456-8228851f18b9")
+	)
+	(wire
+		(pts
+			(xy 1254.76 403.86) (xy 1257.3 403.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fca4724b-05e6-452c-9c8a-2a27423e85f0")
+	)
+	(polyline
+		(pts
 			(xy 1258.57 158.75) (xy 1271.27 158.75)
 		)
 		(stroke
@@ -3406,8 +4733,44 @@
 		(uuid "fd396589-1846-460b-a96a-d110006f9a5f")
 	)
 	(rectangle
+		(start 1257.3 492.76)
+		(end 1277.62 510.54)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 1895bf16-fb37-4dd6-be8f-e216a85f9bf4)
+	)
+	(rectangle
+		(start 1257.3 436.88)
+		(end 1272.54 459.74)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 251a3297-c2aa-48f1-9c81-812a05aabbd8)
+	)
+	(rectangle
+		(start 1257.3 482.6)
+		(end 1272.54 490.22)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 26a1f1f8-db03-4f93-afd8-075c9d6639d8)
+	)
+	(rectangle
 		(start 1257.3 190.5)
-		(end 1308.1 307.34)
+		(end 1308.1 302.26)
 		(stroke
 			(width 0)
 			(type default)
@@ -3428,6 +4791,18 @@
 			(type none)
 		)
 		(uuid 3586fa7a-6cdf-476a-82ac-b6b1bf677a1b)
+	)
+	(rectangle
+		(start 1257.3 325.12)
+		(end 1277.62 335.28)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 39245e85-d3dd-4294-8cc9-2d71ee355dfe)
 	)
 	(rectangle
 		(start 1259.84 48.26)
@@ -3454,6 +4829,30 @@
 		(uuid 402ef0ed-465d-4cad-83ae-7fc390dac200)
 	)
 	(rectangle
+		(start 1257.3 388.62)
+		(end 1272.54 396.24)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4251df1a-2577-4fd3-b076-9c7fb52e2c49)
+	)
+	(rectangle
+		(start 1257.3 472.44)
+		(end 1272.54 480.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 4ced9435-30a0-49eb-8ec9-d155676c8972)
+	)
+	(rectangle
 		(start 1259.84 58.42)
 		(end 1270 68.58)
 		(stroke
@@ -3464,6 +4863,18 @@
 			(type none)
 		)
 		(uuid 5824fd9a-87f7-4dfe-847e-2d8a859dbfa1)
+	)
+	(rectangle
+		(start 1257.3 337.82)
+		(end 1272.54 353.06)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 5f401bc8-6289-4efe-9c92-073d678e7c2b)
 	)
 	(rectangle
 		(start 1257.3 132.08)
@@ -3478,8 +4889,44 @@
 		(uuid 686e08ca-ae03-42c6-bbfe-d3cba8164393)
 	)
 	(rectangle
-		(start 1257.3 111.76)
-		(end 1267.46 129.54)
+		(start 1257.3 462.28)
+		(end 1282.7 469.9)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 68e14a1b-15a1-427d-90ba-a74ba8904496)
+	)
+	(rectangle
+		(start 1257.3 370.84)
+		(end 1272.54 386.08)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 6ddf2b00-06a8-45f6-b89b-9bf06fde69e7)
+	)
+	(rectangle
+		(start 1257.3 304.8)
+		(end 1287.78 322.58)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 7b8f63bd-4952-4e1f-9252-1a194fc11612)
+	)
+	(rectangle
+		(start 1259.84 111.76)
+		(end 1270 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -3500,6 +4947,30 @@
 			(type none)
 		)
 		(uuid 9a06b17e-8d3e-4ed0-8773-4f3cdc1da809)
+	)
+	(rectangle
+		(start 1257.3 398.78)
+		(end 1272.54 414.02)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 9e79facb-82a6-4309-a3a4-e2e0bf446cf8)
+	)
+	(rectangle
+		(start 1257.3 355.6)
+		(end 1272.54 368.3)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid b19a5fe6-4cce-47f0-a25f-c729347f29e9)
 	)
 	(rectangle
 		(start 1259.84 180.34)
@@ -3550,6 +5021,18 @@
 		(uuid e64baa5e-607a-4ee1-802d-79fb6d8922e7)
 	)
 	(rectangle
+		(start 1257.3 426.72)
+		(end 1272.54 434.34)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid eaa7bb72-2986-4879-8ebb-40e8ac34e339)
+	)
+	(rectangle
 		(start 1257.3 71.12)
 		(end 1272.54 78.74)
 		(stroke
@@ -3561,6 +5044,18 @@
 		)
 		(uuid ec209431-926e-42f5-9d18-8e1576a8e693)
 	)
+	(rectangle
+		(start 1257.3 416.56)
+		(end 1272.54 424.18)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(uuid f4888dde-995b-4a45-a4ca-262e9c6717e3)
+	)
 	(text "Détendeur"
 		(exclude_from_sim no)
 		(at 1264.92 154.94 0)
@@ -3571,9 +5066,19 @@
 		)
 		(uuid "014ae0f4-5ebb-4c98-8794-d89dfa9699f9")
 	)
+	(text "Switch Ventilateur"
+		(exclude_from_sim no)
+		(at 1267.46 495.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "05e98116-5f88-40bd-8664-3d09f8fe4b86")
+	)
 	(text "Indicator Light Socket"
 		(exclude_from_sim no)
-		(at 1282.7 219.71 0)
+		(at 1282.7 217.17 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3581,7 +5086,7 @@
 		)
 		(uuid "0ee53ff7-492a-4550-89e7-501c84811dd8")
 	)
-	(text "Switch\nContact"
+	(text "Switch à clef\nContact"
 		(exclude_from_sim no)
 		(at 1267.46 184.15 0)
 		(effects
@@ -3601,15 +5106,55 @@
 		)
 		(uuid "2733390b-e1c6-41c2-930f-7d2319c162a9")
 	)
+	(text "Bonbonne 2"
+		(exclude_from_sim no)
+		(at 1272.54 318.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "3697ea9e-cbae-4101-b5b4-111d98313589")
+	)
+	(text "Switch Valve\nDétendeur"
+		(exclude_from_sim no)
+		(at 1264.92 420.37 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4164cd48-667c-4357-8d7b-40984e8043e4")
+	)
 	(text "Accelerator Control Stepper Motor Wires Socket"
 		(exclude_from_sim no)
-		(at 1282.7 238.76 0)
+		(at 1282.7 233.68 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 		(uuid "43900d31-2375-42ab-91b2-f0078e86eacb")
+	)
+	(text "Ventilateur\nMoteur"
+		(exclude_from_sim no)
+		(at 1264.92 486.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "465ee6fe-e4a5-4082-b7be-a7d3feb804c8")
+	)
+	(text "Switch\nStart/Flameout"
+		(exclude_from_sim no)
+		(at 1267.46 330.2 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "4bd24bb9-d252-4920-851d-0360b3c4d712")
 	)
 	(text "Capteur\npression\ntempérature\nrail injection"
 		(exclude_from_sim no)
@@ -3641,6 +5186,26 @@
 		)
 		(uuid "71b3f75a-a4fe-4ca8-b8e7-9cdcd396060c")
 	)
+	(text "Switch\nGenerator\nEnable"
+		(exclude_from_sim no)
+		(at 1264.92 430.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "723c3d55-d11b-49c4-96a4-9ca15890d608")
+	)
+	(text "Generator Control"
+		(exclude_from_sim no)
+		(at 1282.7 276.86 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "724526fd-b491-41ba-a5b2-1f0aa041feba")
+	)
 	(text "Capteur\nPression"
 		(exclude_from_sim no)
 		(at 1264.92 162.56 0)
@@ -3650,6 +5215,16 @@
 			)
 		)
 		(uuid "72f81d9e-555f-49df-9bc5-72ff5bed5c4d")
+	)
+	(text "Bougie\nChinoise"
+		(exclude_from_sim no)
+		(at 1264.92 392.43 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7d090427-bc87-4b1d-912e-db311706dda0")
 	)
 	(text "Capteur\npression\ntempérature\nair admission"
 		(exclude_from_sim no)
@@ -3671,9 +5246,29 @@
 		)
 		(uuid "8747fe67-3b25-408b-b641-755de2a8bfae")
 	)
+	(text "Bonbonne 1"
+		(exclude_from_sim no)
+		(at 1272.54 311.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8dcebf7d-4bcf-4768-8380-c42ac730fc11")
+	)
+	(text "Switch Champignon Bonbonne"
+		(exclude_from_sim no)
+		(at 1272.54 307.34 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8df57e76-7a81-4348-8cd7-c40ac6793b6b")
+	)
 	(text "Sonde\nlambda\nUEGO"
 		(exclude_from_sim no)
-		(at 1262.38 120.65 0)
+		(at 1264.92 120.65 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3681,9 +5276,19 @@
 		)
 		(uuid "8e7c4310-f36e-47f7-9d9f-6320416088e3")
 	)
+	(text "Moteur"
+		(exclude_from_sim no)
+		(at 1267.46 506.73 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "9031c7df-7785-41da-8755-c2a06c6bea9d")
+	)
 	(text "Igniter Flameout Wire Socket"
 		(exclude_from_sim no)
-		(at 1282.7 256.54 0)
+		(at 1282.7 248.92 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3700,6 +5305,36 @@
 			)
 		)
 		(uuid "a5fb8bfe-3e35-4c3c-be67-99bf69f29598")
+	)
+	(text "Power\nDistribution\nUnit"
+		(exclude_from_sim no)
+		(at 1264.92 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b25e6945-2274-43bb-9fb9-cafea762b5a9")
+	)
+	(text "High Voltage Outputs"
+		(exclude_from_sim no)
+		(at 1282.7 264.16 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b32e044f-7f70-4ceb-8da8-1f8ff27c0151")
+	)
+	(text "REX\nEngine"
+		(exclude_from_sim no)
+		(at 1264.92 345.44 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bba87215-e5fe-4860-b582-cc278880bfc6")
 	)
 	(text "Engine Control Unit - Chinois"
 		(exclude_from_sim no)
@@ -3731,6 +5366,36 @@
 		)
 		(uuid "d2044c5d-9eee-4424-b3ad-38688a30feb8")
 	)
+	(text "ECU"
+		(exclude_from_sim no)
+		(at 1267.46 499.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "da3aef53-fb56-4027-9408-45b1364ad07e")
+	)
+	(text "Contacteur\nHV"
+		(exclude_from_sim no)
+		(at 1264.92 448.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5501324-63fe-4b05-b2b0-ea9f473e9d9b")
+	)
+	(text "Ventilateur\nECU"
+		(exclude_from_sim no)
+		(at 1264.92 476.25 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "e5b79364-16fa-4efb-a4b7-88ed5fbe4fbd")
+	)
 	(text "Solenoide\nBonbonne 1"
 		(exclude_from_sim no)
 		(at 1264.92 135.89 0)
@@ -3740,6 +5405,26 @@
 			)
 		)
 		(uuid "eba59488-7a14-4e16-9a0a-022a78bbb3ad")
+	)
+	(text "Generator Inputs"
+		(exclude_from_sim no)
+		(at 1282.7 292.1 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ed2434b0-aca7-482f-a02b-828f06c45817")
+	)
+	(text "Switch Champignon\nContacteur HV"
+		(exclude_from_sim no)
+		(at 1270 466.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "f5d28a2a-d184-4380-88bd-430d3ac209be")
 	)
 	(text "Starting Function Changeover Switch Socket"
 		(exclude_from_sim no)
@@ -3751,8 +5436,28 @@
 		)
 		(uuid "f687d012-fd50-49cf-b55f-c122e8f51a94")
 	)
-	(label "Cmd-Bobine-2-Papillon"
-		(at 1234.44 238.76 180)
+	(text "Driver\nBougie\nChinois"
+		(exclude_from_sim no)
+		(at 1264.92 378.46 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "fd6e9e4d-8103-4bb3-ab38-2f10238dd712")
+	)
+	(text "Moteur\nPapillon"
+		(exclude_from_sim no)
+		(at 1264.92 406.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "ffbba0e1-2dc7-452a-add4-c47d29ac31ed")
+	)
+	(label "12V-Solenoide-Bonbonne-2"
+		(at 1247.14 320.04 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3760,7 +5465,117 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "0e1c5af4-2768-4b90-a80f-bf90ff1b8546")
+		(uuid "0150a9ad-fbf4-489c-9b34-04b981a36425")
+	)
+	(label "12V-Commuté-CRMT"
+		(at 1247.14 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "03594ac2-fcfd-451d-b4dd-ce1320f570c4")
+	)
+	(label "12V-ECU-FAN"
+		(at 1247.14 497.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0374fad7-ba06-406d-abd9-66e16bc538f5")
+	)
+	(label "Cmd-Bobine-2-Papillon"
+		(at 1247.14 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "062ee85e-b62d-4ee8-bc36-3e9487df3859")
+	)
+	(label "Cmd-Driver-Bougie"
+		(at 1211.58 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "06e3b98b-eb25-406f-b765-a9620d4b7bae")
+	)
+	(label "12V-Engine-FAN"
+		(at 1247.14 505.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0b4ba302-de43-4c9f-9286-fa1b20809972")
+	)
+	(label "Cmd-Solenoide-Bonbonne-2"
+		(at 1247.14 317.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0d6c1034-03d3-478c-ac8e-36dc4a7319ad")
+	)
+	(label "Cmd-Bobine-4-Papillon"
+		(at 1211.58 238.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "0ff3a490-3b3e-464d-82c7-299fbeac14f6")
+	)
+	(label "Cmd-Start-Engine"
+		(at 1247.14 327.66 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "10c12eb0-ada4-4ae6-b256-5035ecd32c13")
+	)
+	(label "REX-HV(-)"
+		(at 1247.14 365.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "15d472da-98a9-434d-8bef-84c04cf5014f")
+	)
+	(label "GND-Chauffe-Bougie"
+		(at 1244.6 383.54 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1792803d-a87f-478a-a40f-3cbfa2e6b883")
 	)
 	(label "VSIP-Lambda"
 		(at 1247.14 127 180)
@@ -3773,6 +5588,17 @@
 		)
 		(uuid "1a249952-a70e-4a91-9b46-6015138b5888")
 	)
+	(label "REX-HV(+)"
+		(at 1252.22 261.62 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1a34e256-32a4-4ebb-938c-8db9d8739af3")
+	)
 	(label "Cmd-Solenoide-Bonbonne-1"
 		(at 1247.14 134.62 180)
 		(fields_autoplaced yes)
@@ -3783,6 +5609,28 @@
 			(justify right bottom)
 		)
 		(uuid "1b2a5322-956f-4a80-929a-a141a04f0a24")
+	)
+	(label "Cmd-Contacteur-HV"
+		(at 1247.14 467.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1c0f0a94-2f57-4e69-b662-eeb9e8aa2792")
+	)
+	(label "REX-HV(+)-Commuté"
+		(at 1247.14 358.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "218095e1-d859-44e6-b9f5-811e95c389d8")
 	)
 	(label "Signal-Pression-Détendeur"
 		(at 1247.14 162.56 180)
@@ -3828,6 +5676,39 @@
 		)
 		(uuid "26bfbe19-532c-4e4d-9647-1d5e0a608517")
 	)
+	(label "12V-Valve-Détendeur"
+		(at 1254.76 419.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ab1889f-86f2-4f83-aa8d-bddcd11f5e9e")
+	)
+	(label "5V-Papillon"
+		(at 1211.58 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c01026d-1411-4d81-b550-96014828c484")
+	)
+	(label "12V-Constant"
+		(at 1247.14 185.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2ce92708-67c6-4ad5-9317-98b9ab77652b")
+	)
 	(label "Cmd-Flameout-Engine"
 		(at 1247.14 205.74 180)
 		(fields_autoplaced yes)
@@ -3839,6 +5720,17 @@
 		)
 		(uuid "34f3933b-1f3b-4a71-8f75-19caa7ce0e3d")
 	)
+	(label "Cmd-Solenoide-Bonbonne-1"
+		(at 1247.14 309.88 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3513cd76-7ffd-4b17-8867-0dbccc504d5e")
+	)
 	(label "GND-Valve-Détendeur"
 		(at 1247.14 175.26 180)
 		(fields_autoplaced yes)
@@ -3849,17 +5741,6 @@
 			(justify right bottom)
 		)
 		(uuid "398be545-7230-45df-8ff4-3a7a98dd011c")
-	)
-	(label "Cmd-Bobine-3-Papillon"
-		(at 1234.44 241.3 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3bbe921e-9406-4753-b807-78df697c4ddd")
 	)
 	(label "Cmd-Injecteur"
 		(at 1247.14 53.34 180)
@@ -3883,8 +5764,8 @@
 		)
 		(uuid "3d72392d-78a2-404e-813e-566da70b531d")
 	)
-	(label "12V-Constant"
-		(at 1234.44 251.46 180)
+	(label "5V-Papillon"
+		(at 1254.76 401.32 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3892,7 +5773,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "4092b993-a62b-4a5f-b021-a9782d94a780")
+		(uuid "3e3ebcb9-5195-4aff-819b-d5bf6d0126ff")
 	)
 	(label "Cmd-Contact"
 		(at 1247.14 182.88 180)
@@ -3905,7 +5786,18 @@
 		)
 		(uuid "434b8cac-a37a-4c41-8729-8ff4bfc3e772")
 	)
-	(label "GND-Bonbonne-1"
+	(label "REX-HV(+)"
+		(at 1254.76 429.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "44bfa20e-b2c2-4ac4-bd13-651642d04b6e")
+	)
+	(label "GND-Solenoide-Bonbonne-1"
 		(at 1247.14 137.16 180)
 		(fields_autoplaced yes)
 		(effects
@@ -3915,6 +5807,17 @@
 			(justify right bottom)
 		)
 		(uuid "4541b247-18e4-47ba-a5c3-047dc490c2e0")
+	)
+	(label "Cmd-Bobine-1-Papillon"
+		(at 1211.58 231.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "49a2a768-0b3b-4bd9-bc31-8b38046a3f37")
 	)
 	(label "12V-Constant"
 		(at 1247.14 22.86 180)
@@ -3938,6 +5841,28 @@
 		)
 		(uuid "4e4b9d9b-4b80-429e-8bfc-17ac67079e90")
 	)
+	(label "REX-PHASE-1"
+		(at 1252.22 340.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4e63e336-37a8-4091-8640-78e07d7914ff")
+	)
+	(label "REX-PHASE-2"
+		(at 1252.22 345.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "4f63791a-0e64-498e-9f24-ed2aef182794")
+	)
 	(label "Signal-Pression-Rail-Injection"
 		(at 1247.14 91.44 180)
 		(fields_autoplaced yes)
@@ -3948,17 +5873,6 @@
 			(justify right bottom)
 		)
 		(uuid "501045a7-56df-488a-b16c-04264de42602")
-	)
-	(label "12-Constant"
-		(at 1247.14 185.42 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5027aa1f-1269-4d6d-8f50-2d2de7833eed")
 	)
 	(label "AGND-Température-Eau"
 		(at 1247.14 76.2 180)
@@ -3971,8 +5885,8 @@
 		)
 		(uuid "53160d9d-4835-4a93-abf3-f6b01916c2ee")
 	)
-	(label "5V-Papillon"
-		(at 1234.44 233.68 180)
+	(label "GND-Chauffe-Bougie"
+		(at 1254.76 393.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3980,7 +5894,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "57f44589-8b87-4992-8ecb-44d7b494fe4b")
+		(uuid "5ca8318f-91dc-41f9-bf8f-a0666f4f17e4")
 	)
 	(label "Signal-Pression-Air-Admission"
 		(at 1247.14 106.68 180)
@@ -3993,8 +5907,8 @@
 		)
 		(uuid "5f079a2d-6284-40da-83ca-a9702c1fdc03")
 	)
-	(label "12V-Commuté"
-		(at 1247.14 43.18 180)
+	(label "12V-Solenoide-Bonbonne-1"
+		(at 1247.14 312.42 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4002,7 +5916,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "67f7e280-6619-4c38-926c-c20b63dd5d3f")
+		(uuid "62309603-2a03-4c3b-9933-a2727c1d6901")
+	)
+	(label "GND-Driver-Bougie"
+		(at 1244.6 375.92 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66b4dbda-7d8a-489f-bdb6-ea303390a80d")
+	)
+	(label "GND-Contacteur-HV"
+		(at 1252.22 457.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "6782ceea-8dc9-4fbe-8752-e96e0d15c19b")
 	)
 	(label "VREF-Rail-Injection"
 		(at 1247.14 88.9 180)
@@ -4015,8 +5951,8 @@
 		)
 		(uuid "6846c87a-f87d-4a7d-8e76-9d0d854b38bd")
 	)
-	(label "12V-Commuté"
-		(at 1247.14 25.4 180)
+	(label "Cmd-Generator"
+		(at 1244.6 276.86 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4024,7 +5960,18 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "73ecaae2-a504-4ae8-afc9-b962066490cb")
+		(uuid "6c839459-980a-4417-b2cb-0dee5a5e074e")
+	)
+	(label "REX-PHASE-3"
+		(at 1252.22 297.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "72ac007d-e033-4f55-a80d-b2659fc9b457")
 	)
 	(label "Cmd-Solenoide-Bonbonne-2"
 		(at 1247.14 144.78 180)
@@ -4037,8 +5984,19 @@
 		)
 		(uuid "7481cde4-2cd8-4570-98be-840ec44ff90e")
 	)
+	(label "REX-PHASE-1"
+		(at 1252.22 287.02 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7920f488-23a7-46f2-9928-aefa8300b855")
+	)
 	(label "LED-Indicator-1"
-		(at 1247.14 213.36 180)
+		(at 1247.14 210.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4059,8 +6017,19 @@
 		)
 		(uuid "7b18fc6d-3877-42c0-8a9b-1d00f767989e")
 	)
+	(label "REX-PHASE-3"
+		(at 1252.22 350.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7c3f0e2f-17c2-47a9-8ee6-1730af764143")
+	)
 	(label "LED-Indicator-2"
-		(at 1247.14 215.9 180)
+		(at 1247.14 213.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4081,6 +6050,17 @@
 		)
 		(uuid "8515b58f-69c3-4c59-9ce8-7721a2ec35c8")
 	)
+	(label "GND-Engine-FAN"
+		(at 1254.76 487.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8761d56d-5674-4fb1-919d-be308f30aaa2")
+	)
 	(label "RCOMP-Lambda"
 		(at 1247.14 121.92 180)
 		(fields_autoplaced yes)
@@ -4091,6 +6071,39 @@
 			(justify right bottom)
 		)
 		(uuid "87adf127-335c-4d4b-b594-d5ac453921bc")
+	)
+	(label "Cmd-ECU-FAN"
+		(at 1254.76 474.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8a2eb89e-05e9-4125-9f1c-d6c96699b9fd")
+	)
+	(label "Cmd-ECU-FAN"
+		(at 1247.14 500.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b385e52-7520-4065-a008-0651f45dc54e")
+	)
+	(label "12V-Driver-Bougie"
+		(at 1211.58 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8de0a036-9aa1-486d-981f-0903c255c6c7")
 	)
 	(label "AGND-Rail-Injection"
 		(at 1247.14 83.82 180)
@@ -4136,6 +6149,39 @@
 		)
 		(uuid "9327145c-1a91-41c9-bf8a-ff102ece172f")
 	)
+	(label "GND-ECU-FAN"
+		(at 1254.76 477.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9490d47c-b05a-4da9-81f1-65beb0687e6d")
+	)
+	(label "12V-Contacteur-HV"
+		(at 1247.14 464.82 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9bebb84f-60ab-461c-a3d7-64e89361e7e5")
+	)
+	(label "Cmd-Bobine-2-Papillon"
+		(at 1254.76 406.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9d0369d0-e3c6-4649-b497-dc4af95dbf28")
+	)
 	(label "Cmd-Bobine"
 		(at 1247.14 40.64 180)
 		(fields_autoplaced yes)
@@ -4147,6 +6193,72 @@
 		)
 		(uuid "9d6f1c7b-6888-4add-8b7d-686dfd51c856")
 	)
+	(label "5V-Papillon"
+		(at 1247.14 228.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a41e05bd-1390-4991-a1d7-e71f4683e381")
+	)
+	(label "Cmd-Flameout-Engine"
+		(at 1247.14 332.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4676d73-935e-41d0-beb5-2f85df6a69f3")
+	)
+	(label "Cmd-Bobine-3-Papillon"
+		(at 1211.58 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a4b4bbc3-4e5c-4f10-9159-59b6b540180d")
+	)
+	(label "Cmd-Bobine-1-Papillon"
+		(at 1254.76 403.86 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7a6e694-11dd-4eac-83f2-00469b7f60f4")
+	)
+	(label "Cmd-Contacteur-HV"
+		(at 1252.22 452.12 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "aa4b648d-b244-45a5-a8c7-553756e52748")
+	)
+	(label "Common-Engine"
+		(at 1247.14 330.2 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "abb85164-0c35-4752-b9ee-170da041134e")
+	)
 	(label "AGND-Régime-Moteur"
 		(at 1247.14 63.5 180)
 		(fields_autoplaced yes)
@@ -4157,6 +6269,28 @@
 			(justify right bottom)
 		)
 		(uuid "aea8be5f-ba93-41c1-9c96-710e6d3d3ea0")
+	)
+	(label "Cmd-Valve-Détendeur"
+		(at 1254.76 421.64 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b275d474-a45c-46f1-ac21-da21ef6cca25")
+	)
+	(label "12V-Commuté-CRMT"
+		(at 1247.14 25.4 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "b5f8a1bf-9a05-48ee-b678-7aa12fb29822")
 	)
 	(label "VS-Lambda"
 		(at 1247.14 124.46 180)
@@ -4180,8 +6314,8 @@
 		)
 		(uuid "ba5cf69e-0975-40b1-94a3-a654752591be")
 	)
-	(label "Cmd-Bobine-4-Papillon"
-		(at 1234.44 243.84 180)
+	(label "Cmd-Engine-FAN"
+		(at 1254.76 485.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4189,7 +6323,29 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "beb10591-a7cb-4755-b1d4-2cfcabb57fd2")
+		(uuid "ba7f4e80-64d4-4d90-9a9a-26aaa86c4daa")
+	)
+	(label "REX-HV(+)"
+		(at 1252.22 444.5 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bc222b68-4b9e-4f46-b4c6-767ae1be19c1")
+	)
+	(label "Cmd-Bobine-4-Papillon"
+		(at 1254.76 411.48 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bcaa4367-b190-435f-a0c4-758a85169bd6")
 	)
 	(label "Signal-Température-Air-Admission"
 		(at 1247.14 101.6 180)
@@ -4202,7 +6358,18 @@
 		)
 		(uuid "c1f84b60-1461-4893-b6d3-4522f8c16354")
 	)
-	(label "GND-Bonbonne-2"
+	(label "12V-Chauffe-Bougie"
+		(at 1244.6 381 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "c3544fa9-8b3d-4105-a2ec-b0f45ce24c71")
+	)
+	(label "GND-Solenoide-Bonbonne-2"
 		(at 1247.14 147.32 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4213,8 +6380,8 @@
 		)
 		(uuid "c5a98608-d762-4964-b3c4-4404eaca1a43")
 	)
-	(label "Cmd-Driver-Bougie"
-		(at 1234.44 254 180)
+	(label "Cmd-Generator"
+		(at 1254.76 431.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4222,7 +6389,95 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "d1069d0d-eef9-4c8c-909d-5f42da1ff61d")
+		(uuid "c7140ffa-58f5-45f9-b4ee-a4c79cdaf59f")
+	)
+	(label "Cmd-Bobine-2-Papillon"
+		(at 1211.58 233.68 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d1c0ff40-d352-4fc5-9fcf-d44234dfa4d7")
+	)
+	(label "12V-Commuté-CRMT"
+		(at 1247.14 43.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d2698876-0707-4001-8570-ff1541b27af2")
+	)
+	(label "REX-HV(-)"
+		(at 1252.22 266.7 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "d60e4dc9-e081-4a80-994b-9c4a36c8c47f")
+	)
+	(label "12V-Driver-Bougie"
+		(at 1247.14 243.84 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "dac4bfd4-b7fb-4769-8646-c4f37758f7bf")
+	)
+	(label "Cmd-Driver-Bougie"
+		(at 1247.14 246.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e04424a3-6e3b-49ea-a008-de538f56a1f5")
+	)
+	(label "12V-Chauffe-Bougie"
+		(at 1254.76 391.16 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e049dd62-a7b8-43bb-a24d-8a5ed024531a")
+	)
+	(label "Cmd-Engine-FAN"
+		(at 1247.14 508 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e0caab6f-688c-4b58-842e-b9824a61afc3")
+	)
+	(label "REX-PHASE-2"
+		(at 1252.22 292.1 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e40cbc20-fdf9-4db6-84dc-fbdcf3361dd5")
 	)
 	(label "5V-Pression-Détendeur"
 		(at 1247.14 165.1 180)
@@ -4246,6 +6501,17 @@
 		)
 		(uuid "e5bf1dba-b045-490b-8e0e-f823fa2d164b")
 	)
+	(label "Cmd-Bobine-3-Papillon"
+		(at 1247.14 236.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e99e5107-cfb0-453f-b771-382828677369")
+	)
 	(label "GND-Bobine"
 		(at 1247.14 38.1 180)
 		(fields_autoplaced yes)
@@ -4258,7 +6524,7 @@
 		(uuid "ec71903e-5861-4607-9249-4a70be5bb1ee")
 	)
 	(label "Cmd-Bobine-1-Papillon"
-		(at 1234.44 236.22 180)
+		(at 1247.14 231.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4266,9 +6532,9 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "efab3936-66e0-4d90-a26e-dfbdaa567a06")
+		(uuid "ef5aa417-3c19-4a18-887b-7941be19e896")
 	)
-	(label "12V-Commuté"
+	(label "12V-Commuté-CRMT"
 		(at 1247.14 116.84 180)
 		(fields_autoplaced yes)
 		(effects
@@ -4290,8 +6556,8 @@
 		)
 		(uuid "f231f6a0-959f-4a92-93e1-f8d755a053c8")
 	)
-	(label "12V-Commuté"
-		(at 1247.14 50.8 180)
+	(label "Cmd-Bobine-4-Papillon"
+		(at 1247.14 238.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4299,10 +6565,43 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "fb08ac2a-d47f-4a82-a23d-19de916fe1d1")
+		(uuid "f3639f1b-c413-4703-b928-8a7319b453cd")
+	)
+	(label "Cmd-Bobine-3-Papillon"
+		(at 1254.76 408.94 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f5c47543-f97b-4194-9930-e89325f8e9a1")
+	)
+	(label "REX-HV(+)-Commuté"
+		(at 1252.22 439.42 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "f6d8d181-b0aa-48db-ba0a-68ce3a53bc5a")
+	)
+	(label "Cmd-Driver-Bougie"
+		(at 1244.6 373.38 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "fb7ea8fb-928e-4cce-89ce-aaca42b32f89")
 	)
 	(label "LED-Indicator-3"
-		(at 1247.14 218.44 180)
+		(at 1247.14 215.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4325,7 +6624,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 1239.52 238.76 180)
+		(at 1216.66 233.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4333,7 +6632,7 @@
 		(dnp no)
 		(uuid "0249177a-bc11-4e9f-b3e2-abca303a02ed")
 		(property "Reference" "CN30"
-			(at 1236.98 231.14 0)
+			(at 1214.12 226.06 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -4342,7 +6641,7 @@
 			)
 		)
 		(property "Value" "Accelerator Control Stepper Motor Wires Socket"
-			(at 1238.885 246.38 0)
+			(at 1216.025 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4351,7 +6650,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4360,7 +6659,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4369,7 +6668,7 @@
 			)
 		)
 		(property "Description" "JST SM Series"
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4378,7 +6677,7 @@
 			)
 		)
 		(property "Boitier" "JST SMP-05V-BC"
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +6686,7 @@
 			)
 		)
 		(property "Contact 1" "SHF-001T-0.8BS"
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4414,6 +6713,78 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN30")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x03_Pin")
+		(at 1252.22 330.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0c34bf4c-76dd-4a7a-b75e-a7d9ee962f68")
+		(property "Reference" "CN51"
+			(at 1254.76 325.12 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Start/Flameout"
+			(at 1252.855 325.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pas besoin de sourcer"
+			(at 1252.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e813c7b1-1374-4147-9fae-c21302641fda")
+		)
+		(pin "3"
+			(uuid "060300d1-d51a-4cf3-b002-fc955a811256")
+		)
+		(pin "2"
+			(uuid "d376c105-1e12-4f6e-a239-af6f01fab13c")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN51")
 					(unit 1)
 				)
 			)
@@ -4519,7 +6890,7 @@
 	(symbol
 		(lib_name "Conn_01x02_Pin_2")
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 1252.22 251.46 0)
+		(at 1252.22 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4527,7 +6898,7 @@
 		(dnp no)
 		(uuid "163f7e76-a001-41d9-9d2b-5fb7a12f0cff")
 		(property "Reference" "CN37"
-			(at 1254.76 248.92 0)
+			(at 1254.76 241.3 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -4536,7 +6907,7 @@
 			)
 		)
 		(property "Value" "Igniter Flameout Wire Socket"
-			(at 1252.855 248.92 0)
+			(at 1252.855 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4545,7 +6916,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1252.22 251.46 0)
+			(at 1252.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4554,7 +6925,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1252.22 251.46 0)
+			(at 1252.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4563,7 +6934,7 @@
 			)
 		)
 		(property "Description" "Pas besoin de sourcer"
-			(at 1252.22 251.46 0)
+			(at 1252.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4581,6 +6952,147 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1252.22 505.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1be54bbc-34b7-4ffb-a1d9-b60a54d6b9b5")
+		(property "Reference" "CN67"
+			(at 1254.76 502.92 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Ventilateur"
+			(at 1252.855 502.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bb1edb85-61b4-42b2-8021-baed3cc80c74")
+		)
+		(pin "2"
+			(uuid "3d14f835-1d47-4f4c-bf84-cbb6747d1d95")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN67")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 1252.22 317.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c5c5371-9b06-4848-8046-120250e78d20")
+		(property "Reference" "CN48"
+			(at 1249.68 314.96 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Champignon Bonbonne 2"
+			(at 1242.06 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1b1ab08-c551-4f33-bc67-e249b509ed8e")
+		)
+		(pin "1"
+			(uuid "dd5766a0-7a3e-4ff0-af13-3ae8d6a94093")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN48")
 					(unit 1)
 				)
 			)
@@ -4660,7 +7172,7 @@
 	(symbol
 		(lib_name "Conn_01x02_Pin_1")
 		(lib_id "Connector:Conn_01x02_Pin")
-		(at 1239.52 251.46 0)
+		(at 1216.66 243.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4668,7 +7180,7 @@
 		(dnp no)
 		(uuid "3237d544-29a8-44b6-9645-9db0dacb74ea")
 		(property "Reference" "CN35"
-			(at 1242.06 248.92 0)
+			(at 1219.2 241.3 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -4677,7 +7189,7 @@
 			)
 		)
 		(property "Value" "Igniter Flameout Wire Socket"
-			(at 1240.155 248.92 0)
+			(at 1217.295 241.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4686,7 +7198,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4695,7 +7207,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4704,7 +7216,7 @@
 			)
 		)
 		(property "Description" "Sumitomo MTW Series"
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4713,7 +7225,7 @@
 			)
 		)
 		(property "Boitier" "6030-2981"
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4722,7 +7234,7 @@
 			)
 		)
 		(property "Contact 1" "1500-0071"
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4746,16 +7258,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 1252.22 251.46 0)
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 292.1 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "3eefe486-da77-4438-962e-d5ccbc08ec08")
-		(property "Reference" "CN36"
-			(at 1249.68 248.92 0)
+		(uuid "361370a2-690e-476c-b7f0-20af661887cf")
+		(property "Reference" "CN44"
+			(at 1254.76 289.56 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -4763,8 +7275,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "Igniter Flameout Wire Socket"
-			(at 1253.49 251.46 0)
+		(property "Value" "Phase 2"
+			(at 1268.73 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4774,7 +7286,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1252.22 251.46 0)
+			(at 1257.3 292.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4783,7 +7295,152 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1252.22 251.46 0)
+			(at 1257.3 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 292.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "246481f3-7eb5-4420-b44f-a513125ac26f")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN44")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x04_Male_6")
+		(lib_id "Connector:Conn_01x04_Male")
+		(at 1252.22 363.22 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3818f264-8115-403c-b9ca-a67fb2924c00")
+		(property "Reference" "CN56"
+			(at 1254.76 355.6 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "REX HV  PDU"
+			(at 1254.76 355.6 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify top)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "HVSL362022A"
+			(at 1252.22 363.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ac1d444b-abbf-40ee-8f80-e3bd73587160")
+		)
+		(pin "2"
+			(uuid "013bf777-ea97-41f1-8b58-7208e976e2b7")
+		)
+		(pin "A"
+			(uuid "e1a5f306-4ae9-4df6-ba93-b5a82cdb1d18")
+		)
+		(pin "B"
+			(uuid "cb6d2e43-91be-4e77-9b3e-40252dd86cc6")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN56")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1252.22 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3eefe486-da77-4438-962e-d5ccbc08ec08")
+		(property "Reference" "CN36"
+			(at 1249.68 241.3 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Igniter Flameout Wire Socket"
+			(at 1253.49 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4792,7 +7449,7 @@
 			)
 		)
 		(property "Description" "JST XA Series"
-			(at 1252.22 251.46 0)
+			(at 1252.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4801,7 +7458,7 @@
 			)
 		)
 		(property "Boitier" "JST XAP-02V-1"
-			(at 1252.22 251.46 0)
+			(at 1252.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4810,7 +7467,7 @@
 			)
 		)
 		(property "Contact 1" "SXA-001T-P0.6"
-			(at 1252.22 251.46 0)
+			(at 1252.22 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4828,6 +7485,309 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN36")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_Pin_2")
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 1249.68 381 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "42ccc15c-bf48-45e1-96c5-b7b13f2e1fa7")
+		(property "Reference" "CN57"
+			(at 1247.14 378.46 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Driver Bougie Chinois"
+			(at 1249.045 378.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "Sumitomo MT Sealed Series"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sumitomo"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "6187-2171"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1500-0105"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "7160-8234"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "23548308-8247-430d-9014-1077ba2c3810")
+		)
+		(pin "2"
+			(uuid "964bdcaa-c7a7-4d0f-929d-c4b3de8866b7")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN57")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 261.62 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4cfaf0b0-1f1e-4cb9-a60e-8b736d9590a2")
+		(property "Reference" "CN39"
+			(at 1254.76 259.08 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Igniter Flameout Wire Socket"
+			(at 1268.73 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f7b98bef-8575-4acd-93e9-c082441ea625")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN39")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 1249.68 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "4dbb763d-e15f-4ae6-9583-af8af1cbdefe")
+		(property "Reference" "CN41"
+			(at 1247.14 274.32 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Generator Enable"
+			(at 1250.95 278.1299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1249.68 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1249.68 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1249.68 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "746561e6-64a0-4966-b2d5-ddd1a1d57af5")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN41")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 1252.22 464.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "54b09293-79af-4d9a-ab36-583ed5b72e0f")
+		(property "Reference" "CN63"
+			(at 1249.68 462.28 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Champignon Bonbonne 2"
+			(at 1242.06 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4d6bbb30-bc79-4b9d-b09e-894960a40550")
+		)
+		(pin "1"
+			(uuid "77a9be05-59ad-4e79-be3c-dae3affe5363")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN63")
 					(unit 1)
 				)
 			)
@@ -4903,6 +7863,73 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 350.52 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "56c90bfd-a7cb-496f-82ba-343d8922e8d5")
+		(property "Reference" "CN54"
+			(at 1254.76 347.98 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Phase 3"
+			(at 1268.73 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 350.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a8515fd9-9d9a-48cc-a411-556dc537fb3e")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN54")
 					(unit 1)
 				)
 			)
@@ -5084,6 +8111,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 1252.22 309.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ebd145b-901b-47e6-ab91-af56c6bbf6aa")
+		(property "Reference" "CN46"
+			(at 1249.68 307.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Champignon Bonbonne 1"
+			(at 1242.06 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "17f01c98-3084-413f-a054-096758eedfc6")
+		)
+		(pin "1"
+			(uuid "c5d16d2b-1dc7-4fa8-a5e7-d32780a87fcc")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN46")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
 		(at 1252.22 73.66 0)
 		(unit 1)
@@ -5181,6 +8279,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1252.22 309.88 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6acb1ccb-6a56-4500-8a8d-7f3a24ce1473")
+		(property "Reference" "CN47"
+			(at 1254.76 307.34 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Champignon Bonbonne 1"
+			(at 1252.855 307.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pas besoin de sourcer"
+			(at 1252.22 309.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1a33cdae-a6a3-406b-b620-fc076ea6381f")
+		)
+		(pin "2"
+			(uuid "861d5173-e8a0-45b1-826b-3fe4b40c760e")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN47")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1252.22 317.5 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6e79d8af-d6d3-4edf-a837-7f2a231e419e")
+		(property "Reference" "CN49"
+			(at 1254.76 314.96 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Champignon Bonbonne 2"
+			(at 1252.855 314.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pas besoin de sourcer"
+			(at 1252.22 317.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "537acfb2-731e-4af9-b797-e0eefc9ee2ef")
+		)
+		(pin "2"
+			(uuid "dc98d00a-655a-493c-b680-f0e190327324")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN49")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x03_Pin")
 		(at 1252.22 63.5 0)
 		(unit 1)
@@ -5254,7 +8492,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Socket")
-		(at 1239.52 238.76 180)
+		(at 1216.66 233.68 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5262,7 +8500,7 @@
 		(dnp no)
 		(uuid "6ff369ea-e2d1-4265-8fa9-f22371eafbae")
 		(property "Reference" "CN31"
-			(at 1242.06 231.14 0)
+			(at 1219.2 226.06 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -5271,7 +8509,7 @@
 			)
 		)
 		(property "Value" "Accelerator Control Stepper Motor Wires Socket"
-			(at 1238.25 237.4901 0)
+			(at 1215.39 232.4101 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5281,7 +8519,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5290,7 +8528,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,7 +8537,7 @@
 			)
 		)
 		(property "Description" "JST SM Series"
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5308,7 +8546,7 @@
 			)
 		)
 		(property "Boitier" "JST SMR-05V-B"
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5317,7 +8555,7 @@
 			)
 		)
 		(property "Contact 1" "SYM-001T-P0.6"
-			(at 1239.52 238.76 0)
+			(at 1216.66 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5521,7 +8759,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
-		(at 1252.22 218.44 0)
+		(at 1252.22 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5529,7 +8767,7 @@
 		(dnp no)
 		(uuid "7598d671-f5e7-43de-b7f2-c3f555de17a6")
 		(property "Reference" "CN29"
-			(at 1254.76 210.82 0)
+			(at 1254.76 208.28 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -5538,7 +8776,7 @@
 			)
 		)
 		(property "Value" "Indicator Light Socket"
-			(at 1252.855 210.82 0)
+			(at 1252.855 208.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +8785,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +8794,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +8803,7 @@
 			)
 		)
 		(property "Description" "Pas besoin de sourcer"
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5710,6 +8948,73 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 287.02 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "76cb73f4-8b3e-4b09-bb71-4cf36e6df91c")
+		(property "Reference" "CN43"
+			(at 1254.76 284.48 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Phase 1"
+			(at 1268.73 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 287.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6cddc000-52c4-4074-ba74-b2d0bde4078e")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN43")
 					(unit 1)
 				)
 			)
@@ -5888,6 +9193,73 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 444.5 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7edfb81d-2e83-4a34-ad2c-57e3631b96f4")
+		(property "Reference" "CN60"
+			(at 1254.76 441.96 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Contacteur Haute-Tension"
+			(at 1268.73 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 444.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e2fe31de-6a13-4b6c-88d7-4f7d2904a06c")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN60")
 					(unit 1)
 				)
 			)
@@ -6270,6 +9642,140 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 297.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "995f8dcd-4772-493e-a9a7-1f324c8de0cf")
+		(property "Reference" "CN45"
+			(at 1254.76 294.64 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Phase 3"
+			(at 1268.73 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 297.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d41a54f5-a575-4af7-86d9-059b63405087")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN45")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 457.2 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a2097f4b-cbf6-4a51-b170-6381a0a894fb")
+		(property "Reference" "CN62"
+			(at 1254.76 454.66 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Contacteur Haute-Tension"
+			(at 1268.73 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 457.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "417e1832-6fe2-42f7-a891-d004c319e29b")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN62")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Conn_01x02_Pin_2")
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 1252.22 172.72 0)
@@ -6340,26 +9846,26 @@
 		)
 	)
 	(symbol
-		(lib_id "Connector:Conn_01x05_Socket")
-		(at 1252.22 238.76 0)
-		(mirror x)
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1249.68 381 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "ac2af138-6a01-4b00-8cff-8afa8f87b7af")
-		(property "Reference" "CN32"
-			(at 1249.68 231.14 0)
+		(uuid "a69c3f17-5fc3-4801-975d-96a26162bd56")
+		(property "Reference" "CN58"
+			(at 1252.22 378.46 0)
 			(effects
 				(font
 					(size 0.635 0.635)
 				)
-				(justify top)
+				(justify bottom)
 			)
 		)
-		(property "Value" "Accelerator Control Stepper Motor Wires Socket"
-			(at 1253.49 240.03 0)
+		(property "Value" "Driver Bougie Chinois"
+			(at 1243.33 383.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +9875,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1252.22 238.76 0)
+			(at 1249.68 381 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6378,7 +9884,105 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1252.22 238.76 0)
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sumitomo MT Sealed Series"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "6180-2181"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Contact 1" "1500-0110"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Joint" "7160-8234"
+			(at 1249.68 381 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "20554ac8-257c-47a4-9ce9-3181f287e484")
+		)
+		(pin "1"
+			(uuid "4fc37845-32a8-4fde-ba27-fb941d5c5040")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN58")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x05_Socket")
+		(at 1252.22 233.68 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ac2af138-6a01-4b00-8cff-8afa8f87b7af")
+		(property "Reference" "CN32"
+			(at 1249.68 226.06 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify top)
+			)
+		)
+		(property "Value" "Accelerator Control Stepper Motor Wires Socket"
+			(at 1253.49 234.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6387,7 +9991,7 @@
 			)
 		)
 		(property "Description" "JST XA Series"
-			(at 1252.22 238.76 0)
+			(at 1252.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6396,7 +10000,7 @@
 			)
 		)
 		(property "Boitier" "JST XAP-05V-1"
-			(at 1252.22 238.76 0)
+			(at 1252.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6405,7 +10009,7 @@
 			)
 		)
 		(property "Contact 1" "SXA-001T-P0.6"
-			(at 1252.22 238.76 0)
+			(at 1252.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6438,17 +10042,16 @@
 		)
 	)
 	(symbol
-		(lib_name "Conn_01x02_Socket_2")
-		(lib_id "Connector:Conn_01x02_Socket")
-		(at 1239.52 251.46 0)
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 1252.22 330.2 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "b21ce5ff-5db2-41e5-aa66-88cb7d62cd10")
-		(property "Reference" "CN34"
-			(at 1236.98 248.92 0)
+		(uuid "b13ac772-d92c-4fc1-91a6-6ad2678d69f1")
+		(property "Reference" "CN50"
+			(at 1249.68 325.12 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -6456,8 +10059,8 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "Igniter Flameout Wire Socket"
-			(at 1240.79 253.9999 0)
+		(property "Value" "Switch Start/Flameout"
+			(at 1259.84 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6467,7 +10070,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1239.52 251.46 0)
+			(at 1252.22 330.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6476,7 +10079,81 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1239.52 251.46 0)
+			(at 1252.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 330.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "16cc88ff-22b7-40e5-9708-9a662efa0732")
+		)
+		(pin "3"
+			(uuid "b6853b86-b049-4942-8280-8494040e12f5")
+		)
+		(pin "2"
+			(uuid "9c6aa2ed-d514-47be-809f-358afc17aecf")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x02_Socket_2")
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1216.66 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b21ce5ff-5db2-41e5-aa66-88cb7d62cd10")
+		(property "Reference" "CN34"
+			(at 1214.12 241.3 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Igniter Flameout Wire Socket"
+			(at 1217.93 246.3799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1216.66 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6485,7 +10162,7 @@
 			)
 		)
 		(property "Description" "Sumitomo MTW Series"
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6494,7 +10171,7 @@
 			)
 		)
 		(property "Boitier" "6040-2111"
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6503,7 +10180,7 @@
 			)
 		)
 		(property "Contact 1" "8240-4050"
-			(at 1239.52 251.46 0)
+			(at 1216.66 243.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6521,6 +10198,72 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN34")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Pin")
+		(at 1249.68 276.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b4eb55cb-39de-4c97-8f40-5ff9cd64264f")
+		(property "Reference" "CN42"
+			(at 1252.22 274.32 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Generator Enable"
+			(at 1250.315 274.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1249.68 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1249.68 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pas besoin de sourcer"
+			(at 1249.68 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6c6817b0-443e-44af-b9d5-c6df6c7484ac")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN42")
 					(unit 1)
 				)
 			)
@@ -6672,6 +10415,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 1252.22 497.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "bf51ece3-6e1b-4cd7-8802-7c58e9a93dd8")
+		(property "Reference" "CN65"
+			(at 1249.68 495.3 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Ventilateur"
+			(at 1242.06 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "3ba4847d-88fd-4fa1-9069-4f5655d1c52b")
+		)
+		(pin "1"
+			(uuid "235bdfb4-d643-490e-88d4-695cfdcd9145")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN65")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Conn_01x02_Pin_2")
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 1252.22 134.62 0)
@@ -6736,6 +10550,73 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 452.12 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c43f0040-04f8-4199-8ff8-1cafbbd1f039")
+		(property "Reference" "CN61"
+			(at 1254.76 449.58 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Contacteur Haute-Tension"
+			(at 1268.73 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 452.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dec10c3f-8821-4fb2-a750-8e2c4ebc2981")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN61")
 					(unit 1)
 				)
 			)
@@ -6829,6 +10710,140 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 340.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ce2ca9cb-08ff-4d8c-b57f-a9bfba988877")
+		(property "Reference" "CN52"
+			(at 1254.76 337.82 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Phase 1"
+			(at 1268.73 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 340.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9020bbe1-1111-4fa6-b596-f1c8a3d25d57")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN52")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 345.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cf165d05-5b59-4844-bcba-000dc3f772f3")
+		(property "Reference" "CN53"
+			(at 1254.76 342.9 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Phase 2"
+			(at 1268.73 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 345.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "af12c5c8-f6e4-45d2-9a16-bcaec72f1f9f")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN53")
 					(unit 1)
 				)
 			)
@@ -6933,6 +10948,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1252.22 497.84 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d21e254d-2411-4ebf-8b6b-f941634824bb")
+		(property "Reference" "CN66"
+			(at 1254.76 495.3 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Ventilateur"
+			(at 1252.855 495.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 497.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ae2af099-a230-4d4a-9b16-85bc20785e27")
+		)
+		(pin "2"
+			(uuid "3ac47d74-af6b-4aed-9055-bcd174e5cb08")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN66")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "Conn_01x02_Pin_2")
 		(lib_id "Connector:Conn_01x02_Pin")
 		(at 1252.22 144.78 0)
@@ -7003,8 +11088,146 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x02_Pin")
+		(at 1252.22 505.46 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d475e771-4db4-41fc-9775-b0593094e258")
+		(property "Reference" "CN68"
+			(at 1249.68 502.92 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Ventilateur"
+			(at 1242.06 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Insulated Faston"
+			(at 1252.22 505.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1e7993d8-52cd-4617-abe2-d8d52062bc02")
+		)
+		(pin "1"
+			(uuid "e299695e-9df4-4871-a5f7-1548d80cdde6")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN68")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 266.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d8aea70d-92e1-4a50-aaf5-11fc60a0d9df")
+		(property "Reference" "CN40"
+			(at 1254.76 264.16 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Igniter Flameout Wire Socket"
+			(at 1268.73 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 266.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02f01953-bd7e-4905-aa31-93cdccce019c")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN40")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Socket")
-		(at 1252.22 218.44 0)
+		(at 1252.22 215.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7012,7 +11235,7 @@
 		(dnp no)
 		(uuid "da11b8cc-970f-4c0e-a465-d8a9c9d65336")
 		(property "Reference" "CN28"
-			(at 1249.68 210.82 0)
+			(at 1249.68 208.28 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -7021,7 +11244,7 @@
 			)
 		)
 		(property "Value" "Indicator Light Socket"
-			(at 1253.49 220.9799 0)
+			(at 1253.49 218.4399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7031,7 +11254,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7040,7 +11263,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,7 +11272,7 @@
 			)
 		)
 		(property "Description" "JST XA Series"
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7058,7 +11281,7 @@
 			)
 		)
 		(property "Boitier" "JST XAP-06V-1"
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7067,7 +11290,7 @@
 			)
 		)
 		(property "Contact 1" "SXA-001T-P0.6"
-			(at 1252.22 218.44 0)
+			(at 1252.22 215.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7104,7 +11327,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Screw_Terminal_01x01")
-		(at 1257.3 259.08 0)
+		(at 1257.3 251.46 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7112,7 +11335,7 @@
 		(dnp no)
 		(uuid "e7693416-a7f4-4b38-96a7-b1d0a70049f8")
 		(property "Reference" "CN38"
-			(at 1254.76 256.54 0)
+			(at 1254.76 248.92 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -7121,7 +11344,7 @@
 			)
 		)
 		(property "Value" "Igniter Flameout Wire Socket"
-			(at 1268.73 259.08 0)
+			(at 1268.73 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +11354,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1257.3 259.08 0)
+			(at 1257.3 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7140,7 +11363,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1257.3 259.08 0)
+			(at 1257.3 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7149,7 +11372,7 @@
 			)
 		)
 		(property "Description" "Connecteur à vis"
-			(at 1257.3 259.08 0)
+			(at 1257.3 251.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7279,6 +11502,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 1257.3 439.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f7fe59ae-05f5-4721-9159-273af1e63500")
+		(property "Reference" "CN59"
+			(at 1254.76 436.88 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Contacteur Haute-Tension"
+			(at 1268.73 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1257.3 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1257.3 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Connecteur à vis"
+			(at 1257.3 439.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "99002279-7d02-4400-ada4-c5771c599b6c")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN59")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector:Conn_01x06_Pin")
 		(at 1252.22 119.38 0)
 		(unit 1)
@@ -7354,6 +11644,153 @@
 			(project "VehiculeREX"
 				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
 					(reference "CN15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x02_Socket")
+		(at 1252.22 464.82 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fb628a88-9fa6-4276-8b12-1f2b6c6cc0e5")
+		(property "Reference" "CN64"
+			(at 1254.76 462.28 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "Switch Champignon Bonbonne 2"
+			(at 1252.855 462.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Pas besoin de sourcer"
+			(at 1252.22 464.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2d23c361-7fa8-49cc-b669-089d853c2499")
+		)
+		(pin "2"
+			(uuid "44292a39-db67-4f89-8760-0a165140dce0")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN64")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "Conn_01x04_Socket_1")
+		(lib_id "Connector:Conn_01x04_Socket")
+		(at 1252.22 360.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fbef571f-197c-4816-b8df-90bd745434c5")
+		(property "Reference" "CN55"
+			(at 1249.68 355.6 0)
+			(effects
+				(font
+					(size 0.635 0.635)
+				)
+				(justify bottom)
+			)
+		)
+		(property "Value" "REX HV  PDU"
+			(at 1253.49 363.2199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 1252.22 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 1252.22 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 1252.22 360.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "692d9969-888a-42d1-8c9f-b0cd6cb4403e")
+		)
+		(pin "B"
+			(uuid "2477de55-eef8-4c0f-9f7e-fc5134705bb9")
+		)
+		(pin "A"
+			(uuid "ae5ac998-917a-408c-8124-1812604d7e41")
+		)
+		(pin "1"
+			(uuid "65583820-89d9-4e2a-b356-b4ca390600a7")
+		)
+		(instances
+			(project "VehiculeREX"
+				(path "/3ad55166-668e-40e7-857e-4e1d217f6b8d"
+					(reference "CN55")
 					(unit 1)
 				)
 			)
@@ -7564,7 +12001,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x05_Pin")
-		(at 1252.22 238.76 0)
+		(at 1252.22 233.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7572,7 +12009,7 @@
 		(dnp no)
 		(uuid "ffa18549-943f-4dce-b2ac-f1d613fedc33")
 		(property "Reference" "CN33"
-			(at 1254.76 231.14 0)
+			(at 1254.76 226.06 0)
 			(effects
 				(font
 					(size 0.635 0.635)
@@ -7581,7 +12018,7 @@
 			)
 		)
 		(property "Value" "Accelerator Control Stepper Motor Wires Socket"
-			(at 1252.855 231.14 0)
+			(at 1252.855 226.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7590,7 +12027,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 1252.22 238.76 0)
+			(at 1252.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7599,7 +12036,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 1252.22 238.76 0)
+			(at 1252.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7608,7 +12045,7 @@
 			)
 		)
 		(property "Description" "Pas besoin de sourcer"
-			(at 1252.22 238.76 0)
+			(at 1252.22 233.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
