@@ -355,6 +355,12 @@
         },
         {
           "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": true
+        },
+        {
+          "group_by": false,
           "label": "Contact 1",
           "name": "Contact 1",
           "show": true
@@ -379,14 +385,20 @@
         },
         {
           "group_by": false,
-          "label": "Description",
-          "name": "Description",
-          "show": true
+          "label": "Capot",
+          "name": "Capot",
+          "show": false
         },
         {
           "group_by": false,
-          "label": "Capot",
-          "name": "Capot",
+          "label": "Verrou",
+          "name": "Verrou",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Bouchon",
+          "name": "Bouchon",
           "show": false
         }
       ],
@@ -394,7 +406,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Verrouillage"
     },
     "connection_grid_size": 50.0,
     "drawing": {
