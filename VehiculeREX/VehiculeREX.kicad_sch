@@ -13062,6 +13062,16 @@
 		)
 		(uuid "bba87215-e5fe-4860-b582-cc278880bfc6")
 	)
+	(text "qwe"
+		(exclude_from_sim no)
+		(at 69.85 295.91 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c0faf8e1-890a-42fb-9924-2c8afcd5129e")
+	)
 	(text "Engine Control Unit - Chinois"
 		(exclude_from_sim no)
 		(at 513.08 167.64 0)
