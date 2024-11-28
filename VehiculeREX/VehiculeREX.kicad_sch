@@ -9736,7 +9736,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 116.84) (xy 351.79 116.84)
+			(xy 466.09 116.84) (xy 308.61 116.84)
 		)
 		(stroke
 			(width 0)
@@ -11317,7 +11317,7 @@
 	)
 	(wire
 		(pts
-			(xy 351.79 116.84) (xy 351.79 101.6)
+			(xy 308.61 116.84) (xy 308.61 101.6)
 		)
 		(stroke
 			(width 0)
@@ -11792,7 +11792,7 @@
 	)
 	(wire
 		(pts
-			(xy 466.09 115.57) (xy 466.09 116.84)
+			(xy 466.09 116.84) (xy 466.09 115.57)
 		)
 		(stroke
 			(width 0)
@@ -13061,16 +13061,6 @@
 			)
 		)
 		(uuid "bba87215-e5fe-4860-b582-cc278880bfc6")
-	)
-	(text "qwe"
-		(exclude_from_sim no)
-		(at 69.85 295.91 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c0faf8e1-890a-42fb-9924-2c8afcd5129e")
 	)
 	(text "Engine Control Unit - Chinois"
 		(exclude_from_sim no)
