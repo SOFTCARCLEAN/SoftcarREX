@@ -7075,7 +7075,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 523.24) (xy 182.88 523.24)
+			(xy 91.44 523.24) (xy 182.88 523.24)
 		)
 		(stroke
 			(width 0)
@@ -7180,7 +7180,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 530.86) (xy 304.8 530.86)
+			(xy 93.98 530.86) (xy 304.8 530.86)
 		)
 		(stroke
 			(width 0.762)
@@ -7487,7 +7487,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 525.78) (xy 160.02 528.32)
+			(xy 91.44 525.78) (xy 91.44 528.32)
 		)
 		(stroke
 			(width 0)
@@ -7613,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 530.86) (xy 157.48 530.86)
+			(xy 83.82 530.86) (xy 88.9 530.86)
 		)
 		(stroke
 			(width 0.762)
@@ -7697,7 +7697,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 525.78) (xy 182.88 525.78)
+			(xy 91.44 525.78) (xy 182.88 525.78)
 		)
 		(stroke
 			(width 0)
@@ -7728,7 +7728,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 497.84) (xy 76.2 497.84)
+			(xy 91.44 497.84) (xy 76.2 497.84)
 		)
 		(stroke
 			(width 0)
@@ -8909,7 +8909,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 523.24) (xy 160.02 497.84)
+			(xy 91.44 523.24) (xy 91.44 497.84)
 		)
 		(stroke
 			(width 0)
@@ -20565,7 +20565,7 @@
 	)
 	(symbol
 		(lib_id "Device:NetTie_3_Tee")
-		(at 160.02 530.86 180)
+		(at 91.44 530.86 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom no)
@@ -20574,7 +20574,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9030940-3461-40bb-92f9-d27082791f55")
 		(property "Reference" "NT6"
-			(at 160.02 535.94 0)
+			(at 91.44 535.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20583,7 +20583,7 @@
 			)
 		)
 		(property "Value" "NetTie_3_Tee"
-			(at 160.02 533.4 0)
+			(at 91.44 533.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20592,7 +20592,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 160.02 530.86 0)
+			(at 91.44 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20601,7 +20601,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 160.02 530.86 0)
+			(at 91.44 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -20610,7 +20610,7 @@
 			)
 		)
 		(property "Description" "Net tie, 3 pins, tee"
-			(at 160.02 530.86 0)
+			(at 91.44 530.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
