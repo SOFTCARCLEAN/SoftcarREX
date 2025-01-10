@@ -14814,7 +14814,7 @@
 				(justify bottom)
 			)
 		)
-		(property "Value" "Capteur température eau"
+		(property "Value" "Capteur Température Echappement"
 			(at 335.28 367.03 0)
 			(effects
 				(font
@@ -20654,7 +20654,7 @@
 				(hide yes)
 			)
 		)
-		(property "Botier" "2137216-1"
+		(property "Botier" ""
 			(at 321.31 269.24 0)
 			(effects
 				(font
@@ -20682,6 +20682,15 @@
 			)
 		)
 		(property "Verrouillage" "828906-2"
+			(at 321.31 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Boitier" "2137216-1"
 			(at 321.31 269.24 0)
 			(effects
 				(font

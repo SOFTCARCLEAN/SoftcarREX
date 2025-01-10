@@ -345,13 +345,7 @@
           "group_by": false,
           "label": "Boitier",
           "name": "Boitier",
-          "show": false
-        },
-        {
-          "group_by": false,
-          "label": "Botier",
-          "name": "Botier",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
@@ -387,26 +381,26 @@
           "group_by": false,
           "label": "Capot",
           "name": "Capot",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Verrou",
           "name": "Verrou",
-          "show": false
+          "show": true
         },
         {
           "group_by": false,
           "label": "Bouchon",
           "name": "Bouchon",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
-      "sort_asc": true,
-      "sort_field": "Verrouillage"
+      "sort_asc": false,
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
