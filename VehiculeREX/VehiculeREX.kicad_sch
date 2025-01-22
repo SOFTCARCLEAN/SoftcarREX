@@ -20654,15 +20654,6 @@
 				(hide yes)
 			)
 		)
-		(property "Botier" ""
-			(at 321.31 269.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "Contact 1" "1-929939-1"
 			(at 321.31 269.24 0)
 			(effects
